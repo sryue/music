@@ -1,0 +1,653 @@
+2017-02-08 11:39:36 [127.0.0.1][-][-][error][ParseError] unserialize('O:10:"ParseError":7:{s:10:"' . "\0" . '*' . "\0" . 'message";s:68:"syntax error, unexpected \';\', expecting identifier (T_STRING) or \'{\'";s:13:"' . "\0" . 'Error' . "\0" . 'string";s:0:"";s:7:"' . "\0" . '*' . "\0" . 'code";i:0;s:7:"' . "\0" . '*' . "\0" . 'file";s:59:"F:\\bigOne\\advanced\\frontend\\controllers\\IndexController.php";s:7:"' . "\0" . '*' . "\0" . 'line";i:6;s:12:"' . "\0" . 'Error' . "\0" . 'trace";a:8:{i:0;a:4:{s:8:"function";s:8:"autoload";s:5:"class";s:11:"yii\\BaseYii";s:4:"type";s:2:"::";s:4:"args";a:1:{i:0;s:36:"frontend\\controllers\\IndexController";}}i:1;a:2:{s:8:"function";s:17:"spl_autoload_call";s:4:"args";a:1:{i:0;s:36:"frontend\\controllers\\IndexController";}}i:2;a:4:{s:4:"file";s:54:"F:\\bigOne\\advanced\\vendor\\yiisoft\\yii2\\base\\Module.php";s:4:"line";i:562;s:8:"function";s:12:"class_exists";s:4:"args";a:1:{i:0;s:36:"frontend\\controllers\\IndexController";}}i:3;a:6:{s:4:"file";s:54:"F:\\bigOne\\advanced\\vendor\\yiisoft\\yii2\\base\\Module.php";s:4:"line";i:520;s:8:"function";s:20:"createControllerByID";s:5:"class";s:15:"yii\\base\\Module";s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:5:"index";}}i:4;a:6:{s:4:"file";s:54:"F:\\bigOne\\advanced\\vendor\\yiisoft\\yii2\\base\\Module.php";s:4:"line";i:448;s:8:"function";s:16:"createController";s:5:"class";s:15:"yii\\base\\Module";s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;s:5:"index";}}i:5;a:6:{s:4:"file";s:58:"F:\\bigOne\\advanced\\vendor\\yiisoft\\yii2\\web\\Application.php";s:4:"line";i:84;s:8:"function";s:9:"runAction";s:5:"class";s:15:"yii\\base\\Module";s:4:"type";s:2:"->";s:4:"args";a:2:{i:0;s:11:"index/index";i:1;a:1:{s:1:"r";s:11:"index/index";}}}i:6;a:6:{s:4:"file";s:59:"F:\\bigOne\\advanced\\vendor\\yiisoft\\yii2\\base\\Application.php";s:4:"line";i:375;s:8:"function";s:13:"handleRequest";s:5:"class";s:19:"yii\\web\\Application";s:4:"type";s:2:"->";s:4:"args";a:1:{i:0;O:15:"yii\\web\\Request":28:{s:20:"enableCsrfValidation";b:1;s:9:"csrfParam";s:5:"_csrf";s:10:"csrfCookie";a:1:{s:8:"httpOnly";b:1;}s:16:"enableCsrfCookie";b:1;s:22:"enableCookieValidation";b:1;s:19:"cookieValidationKey";s:32:"i3XqUbxchvVupU_v3LjS1I_F5eBE3m4M";s:11:"methodParam";s:7:"_method";s:7:"parsers";a:0:{}s:25:"' . "\0" . 'yii\\web\\Request' . "\0" . '_cookies";N;s:25:"' . "\0" . 'yii\\web\\Request' . "\0" . '_headers";N;s:25:"' . "\0" . 'yii\\web\\Request' . "\0" . '_rawBody";N;s:28:"' . "\0" . 'yii\\web\\Request' . "\0" . '_bodyParams";N;s:29:"' . "\0" . 'yii\\web\\Request' . "\0" . '_queryParams";N;s:26:"' . "\0" . 'yii\\web\\Request' . "\0" . '_hostInfo";N;s:25:"' . "\0" . 'yii\\web\\Request' . "\0" . '_baseUrl";s:22:"/advanced/frontend/web";s:27:"' . "\0" . 'yii\\web\\Request' . "\0" . '_scriptUrl";s:32:"/advanced/frontend/web/index.php";s:28:"' . "\0" . 'yii\\web\\Request' . "\0" . '_scriptFile";N;s:26:"' . "\0" . 'yii\\web\\Request' . "\0" . '_pathInfo";N;s:21:"' . "\0" . 'yii\\web\\Request' . "\0" . '_url";N;s:22:"' . "\0" . 'yii\\web\\Request' . "\0" . '_port";N;s:28:"' . "\0" . 'yii\\web\\Request' . "\0" . '_securePort";N;s:30:"' . "\0" . 'yii\\web\\Request' . "\0" . '_contentTypes";N;s:27:"' . "\0" . 'yii\\web\\Request' . "\0" . '_languages";N;s:27:"' . "\0" . 'yii\\web\\Request' . "\0" . '_csrfToken";N;s:35:"' . "\0" . 'yii\\base\\Request' . "\0" . '_isConsoleRequest";N;s:27:"' . "\0" . 'yii\\base\\Component' . "\0" . '_events";a:0:{}s:30:"' . "\0" . 'yii\\base\\Component' . "\0" . '_behaviors";N;s:29:"' . "\0" . 'yii\\base\\Request' . "\0" . '_scriptFile";N;}}}i:7;a:6:{s:4:"file";s:41:"F:\\bigOne\\advanced\\frontend\\web\\index.php";s:4:"line";i:18;s:8:"function";s:3:"run";s:5:"class";s:20:"yii\\base\\Application";s:4:"type";s:2:"->";s:4:"args";a:0:{}}}s:15:"' . "\0" . 'Error' . "\0" . 'previous";N;}')
+2017-02-08 11:39:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gl2vvplbjdvuhunq1beeu9rer5'
+    '_csrf' => '0634826eeed0fce772db9a3cadafc21c2547b999fca9084c640a9a898022d4c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"A7UGY63tKGq6zsSV3QaKikt-y19wFtc4\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '444'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=index/index'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60454'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=gl2vvplbjdvuhunq1beeu9rer5; _csrf=0634826eeed0fce772db9a3cadafc21c2547b999fca9084c640a9a898022d4c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22A7UGY63tKGq6zsSV3QaKikt-y19wFtc4%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486553976.433
+    'REQUEST_TIME' => 1486553976
+]
+2017-02-09 00:19:07 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "idnec". in F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('idnec', Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-09 00:19:06 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][info][application] $_GET = [
+    'r' => 'idnec'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1816'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=idnec'
+    'QUERY_STRING' => 'r=idnec'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50153'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486599546.9724
+    'REQUEST_TIME' => 1486599546
+]
+2017-02-09 02:02:26 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: F:\bigOne\advanced\frontend\views\login\login.php in F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\bigOne\\advan...', Array, Object(frontend\controllers\LoginController))
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('login', Array, Object(frontend\controllers\LoginController))
+#2 F:\bigOne\advanced\frontend\controllers\LoginController.php(18): yii\base\Controller->render('login')
+#3 [internal function]: frontend\controllers\LoginController->actionIndex()
+#4 F:\bigOne\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#7 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login', Array)
+#8 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2017-02-09 02:02:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1932'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=login'
+    'QUERY_STRING' => 'r=login'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56829'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486605746.865
+    'REQUEST_TIME' => 1486605746
+]
+2017-02-09 02:02:33 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: F:\bigOne\advanced\frontend\views\login\login.php in F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\bigOne\\advan...', Array, Object(frontend\controllers\LoginController))
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('login', Array, Object(frontend\controllers\LoginController))
+#2 F:\bigOne\advanced\frontend\controllers\LoginController.php(18): yii\base\Controller->render('login')
+#3 [internal function]: frontend\controllers\LoginController->actionIndex()
+#4 F:\bigOne\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/index', Array)
+#8 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2017-02-09 02:02:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1932'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56831'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486605753.0544
+    'REQUEST_TIME' => 1486605753
+]
+2017-02-09 07:01:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant comm - assumed 'comm' in F:\bigOne\advanced\vendor\yiisoft\yii2\di\Container.php:368
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'F:\\bigOne\\advan...', 368, Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\di\Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#2 F:\bigOne\advanced\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('frontend\\contro...', Array, Array)
+#3 F:\bigOne\advanced\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('frontend\\contro...', Array)
+#4 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(567): yii\BaseYii::createObject('frontend\\contro...', Array)
+#5 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(520): yii\base\Module->createControllerByID('song')
+#6 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(448): yii\base\Module->createController('index')
+#7 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('song/index', Array)
+#8 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2017-02-09 07:01:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1852'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58977'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_REFERER' => 'http://yi.big.com/advanced/frontend/web/?r=index/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486623665.2449
+    'REQUEST_TIME' => 1486623665
+]
+2017-02-09 07:41:10 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: login/login in F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/login', Array)
+#2 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-09 07:41:10 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1960'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60063'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486626070.3384
+    'REQUEST_TIME' => 1486626070
+]
+2017-02-09 07:55:21 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: users/show in F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('users/show', Array)
+#2 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-09 07:55:21 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][info][application] $_GET = [
+    'r' => 'users/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1948'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=users/show'
+    'QUERY_STRING' => 'r=users/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60504'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_REFERER' => 'http://yi.big.com/advanced/frontend/web/?r=users/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486626921.0401
+    'REQUEST_TIME' => 1486626921
+]
+2017-02-09 08:23:19 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: vip/index in F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('vip/index', Array)
+#2 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-09 08:23:19 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][info][application] $_GET = [
+    'r' => 'vip/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1956'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=vip/index'
+    'QUERY_STRING' => 'r=vip/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61053'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_REFERER' => 'http://yi.big.com/advanced/frontend/web/?r=vip/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486628599.3341
+    'REQUEST_TIME' => 1486628599
+]
+2017-02-09 08:23:25 [127.0.0.1][-][-][error][yii\base\InvalidParamException] yii\base\InvalidParamException: The view file does not exist: F:\bigOne\advanced\frontend\views\vip\show.php in F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\bigOne\\advan...', Array, Object(frontend\controllers\VipController))
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('show', Array, Object(frontend\controllers\VipController))
+#2 F:\bigOne\advanced\frontend\controllers\VipController.php(24): yii\base\Controller->render('show')
+#3 [internal function]: frontend\controllers\VipController->actionGroup_show()
+#4 F:\bigOne\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('group_show', Array)
+#7 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('vip/group_show', Array)
+#8 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2017-02-09 08:23:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'vip/group_show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1956'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=vip/group_show'
+    'QUERY_STRING' => 'r=vip/group_show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61053'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_REFERER' => 'http://yi.big.com/advanced/frontend/web/?r=users/show'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486628605.1814
+    'REQUEST_TIME' => 1486628605
+]
+2017-02-09 08:43:41 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: login/io in F:\bigOne\advanced\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('io', Array)
+#1 F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/io', Array)
+#2 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\bigOne\advanced\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\bigOne\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\bigOne\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-09 08:43:41 [127.0.0.1][-][qbc8d7aiqeo0bpvht9t6rvp7m5][info][application] $_GET = [
+    'r' => 'login/io'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'qbc8d7aiqeo0bpvht9t6rvp7m5'
+    '_csrf' => 'a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IPUAqime6ffgyCqvGdiFObMSWjor7fm-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1992'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/?r=login/io'
+    'QUERY_STRING' => 'r=login/io'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61512'
+    'SCRIPT_FILENAME' => 'F:/bigOne/advanced/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=qbc8d7aiqeo0bpvht9t6rvp7m5; _csrf=a924327340e3a147c70f69797d94a0ee4408b66a454f31e47625f7056b4a4da4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IPUAqime6ffgyCqvGdiFObMSWjor7fm-%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'yi.big.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486629821.084
+    'REQUEST_TIME' => 1486629821
+]
