@@ -70,28 +70,28 @@ $(function(){
 
 <div class="login-box">
 	<h1>爱尚.music系统后台登录</h1>
-	<form method="post" action="">
+	<form>
 		<div class="name">
 			<label>管理员账号：</label>
-			<input type="text" name="" id="" tabindex="1" autocomplete="off" />
+			<input type="text" name="name" id="name" tabindex="1" autocomplete="off" />
 		</div>
 		<div class="password">
 			<label>密  码：</label>
-			<input type="password" name="" maxlength="16" id="" tabindex="2"/>
+			<input type="password" name="pwd" maxlength="16" id="pwd" tabindex="2"/>
 		</div>
 		<div class="code">
 			<label>验证码：</label>
-			<input type="text" name="" maxlength="4" id="code" tabindex="3"/>
+			<input type="text" name="yan" maxlength="4" id="code" tabindex="3"/>
 			<div class="codeImg">
-				<img src="./instyle/login/images/captcha.jpeg.jpg" />
+				<img src="a.php" />
 			</div>
 		</div>
 		<div class="remember">
 			<input type="checkbox" id="remember" tabindex="4">
-			<label>记住密码</label>
+			<label>记住密码</label><span id="err"></span>
 		</div>
 		<div class="login">
-			<button type="submit" tabindex="5">登录</button>
+			<button type="button" tabindex="5" id="sbt">登录</button>
 		</div>
 	</form>
 </div>
@@ -108,3 +108,33 @@ $(function(){
 </div>
 </body>
 </html>
+<script>
+	$("#sbt").click(function(){
+		var code=$("#code").val();
+		var name=$("#name").val();
+		var pwd=$("#pwd").val();
+		$.ajax({
+			type: "POST",
+			url: "http://127.0.0.1/admin/frontend/web/?r=login/yan",
+			data: {
+				code:code,
+				name:name,
+				pwd:pwd
+			},
+			success: function(e){
+				if(e==0){
+					$("#err").html("<a style='color: red'>验证码不正确！</a>");
+				}
+				if(e==1){
+					$("#err").html("<a style='color:red'>用户名不正确！</a>");
+				}
+				if(e==2){
+					$("#err").html("<a style='color: red'>密码不正确！</a>");
+				}
+				if(e==3){
+					window.location.href = "?r=index/index";
+				}
+			}
+		});
+	});
+</script>

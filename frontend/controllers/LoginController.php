@@ -17,5 +17,33 @@ class LoginController extends Controller
 	public function actionIndex(){
 		return $this->render('index');
 	}
+	public function actionYan(){
+		header("content-type:text/html;charset=utf-8");
+		$request = \YII::$app->request;
+		$name=$request->post("name");
+		$pwd=$request->post("pwd");
+		$yan=$request->post("code");
+		session_start();
+		$authcode=$_SESSION['authcode'];
+		if($yan==$authcode){
+			$data = (new \yii\db\Query())
+				->select(['*'])
+				->from('ais_admin')
+				->where(['admin_name'=>$name])
+				->all();
+			if(!empty($data)){
+				if($data[0]['password']==$pwd){
+					echo 3;
+				}else{
+					echo 2;
+				}
+			}else{
+				echo 1;
+			}
+
+		}else{
+			echo 0;
+		}
+	}
 }
 ?>
