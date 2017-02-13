@@ -333,5 +333,53 @@ class SongController extends Controller
 		// Return Success JSON-RPC response
 		// die('{"jsonrpc" : "2.0", "result" : null, "id" : "id","imgPath":"'.$uploadPath.'"}');
 	}
+
+
+	
+	//歌曲评论列表
+	public function actionDiscuss(){
+		$request = \Yii::$app->request;
+		$search1 = $request->post("search");
+		$search2 = $request->get("search");
+		$search  = empty($search1) ? $search2 : $search1;
+		if(!empty($search)){
+			$data = AisComment::find()->select('*')
+			->innerJoin('ais_music','ais_comment.music_id=ais_music.music_id')
+			->innerJoin('ais_user','ais_comment.user_id=ais_user.user_id')
+			->where(['like','music_name',$search]); //联查  
+			// var_dump($data);die;
+		}else{
+			$data = AisComment::find()->select('*')
+			->innerJoin('ais_music','ais_comment.music_id=ais_music.music_id')
+			->innerJoin('ais_user','ais_comment.user_id=ais_user.user_id');; //联查  
+			// var_dump($data);die;
+       }  
+        $pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '15']);  
+	        $model = $data->offset($pages->offset)->limit($pages->limit)->asArray()->all(); //分页 
+	        return $this->render('discuss',[  
+	             'model' => $model,  
+	             'pages' => $pages,  
+	             'search' =>$search,
+	       ]); 
+	}
+	//评论删除
+	public function actionDis_del(){
+		$request = \Yii::$app->request;
+		$id = $request->get("id");
+		$search = $request->get("search");
+		$customer = AisComment::findOne($id);
+		$data = $customer->delete();
+		if($data){
+			echo "<script>alert('删除成功');location.href='?r=song/discuss&search=$search'</script>";
+		}else{
+			//失败
+			echo "<script>alert('删除失败');history.go(-1);</script>";
+		}
+	}
+
+
+
+
+
 }
 ?>
