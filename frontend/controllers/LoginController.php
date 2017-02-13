@@ -34,6 +34,7 @@ class LoginController extends Controller
 			if(!empty($data)){
 				if($data[0]['password']==$pwd){
 					echo 3;
+					$_SESSION['name']=$name;
 				}else{
 					echo 2;
 				}
@@ -44,6 +45,12 @@ class LoginController extends Controller
 		}else{
 			echo 0;
 		}
+	}
+	public function actionOut(){
+		$session = Yii::$app->session;
+		$session->open();
+		unset($session['name']);
+		echo "<script> alert('请先登录');window.location.href='?r=login/index';</script>";
 	}
 }
 ?>
