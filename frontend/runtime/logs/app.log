@@ -651,6 +651,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1486629821.084
     'REQUEST_TIME' => 1486629821
 ]
+<<<<<<< HEAD
 2017-02-10 14:33:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$filePath' (T_VARIABLE)' in E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php:138
 Stack trace:
 #0 [internal function]: yii\base\ErrorHandler->handleFatalError()
@@ -8849,4 +8850,80 @@ $_SERVER = [
     'PHP_SELF' => '/index.php'
     'REQUEST_TIME_FLOAT' => 1486951812.4236
     'REQUEST_TIME' => 1486951812
+=======
+2017-02-10 15:15:51 [127.0.0.1][-][8m2rlloa8hn9h1tnop3u27fjn7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/login' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/login', Array)
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-10 15:15:51 [127.0.0.1][-][8m2rlloa8hn9h1tnop3u27fjn7][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '974x_6_ixwk1dzk'
+    '_trs_ua_s_1' => '65jd_6_ixwk1dzj'
+    'CNZZDATA921634' => 'cnzz_eid=20838633-1486626329-&ntime=1486691130'
+    'l' => 'AqioBMkMgbH4AxT6DWp8Dud-eJy6Fgzb'
+    'isg' => 'Ah4epRYXytSFwB6x2gczc-bXbrT_tOJZcJaJnsinTWFc67_FMGusaQiLlUyW'
+    'CNZZDATA2629111' => 'cnzz_eid=813360388-1486628594-&ntime=1486687996'
+    'bdshare_firstime' => '1486690001821'
+    'PHPSESSID' => '8m2rlloa8hn9h1tnop3u27fjn7'
+    '_csrf' => '1042e35453ac9e0925d36dc47fca74a710e373303e333bf436451ca8411dbd77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MxTZUFPnLnub9zR46eN8r5W4Y44wW7d2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\ProgramData\\ComposerSetup\\bin;D:\\wamp\\exe\\bin\\php\\php5.3.13;C:\\ProgramData\\ComposerSetup\\bin;D:\\web\\php55n;D:\\SVN客户端\\bin;;D;\\软件\\Git\\cmd;;;D:\\git\\Git\\cmd;C:\\Users\\dell\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2264'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=login/login'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50591'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=974x_6_ixwk1dzk; _trs_ua_s_1=65jd_6_ixwk1dzj; CNZZDATA921634=cnzz_eid%3D20838633-1486626329-%26ntime%3D1486691130; l=AqioBMkMgbH4AxT6DWp8Dud-eJy6Fgzb; isg=Ah4epRYXytSFwB6x2gczc-bXbrT_tOJZcJaJnsinTWFc67_FMGusaQiLlUyW; CNZZDATA2629111=cnzz_eid%3D813360388-1486628594-%26ntime%3D1486687996; bdshare_firstime=1486690001821; PHPSESSID=8m2rlloa8hn9h1tnop3u27fjn7; _csrf=1042e35453ac9e0925d36dc47fca74a710e373303e333bf436451ca8411dbd77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MxTZUFPnLnub9zR46eN8r5W4Y44wW7d2%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => '127.0.0.1'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486710951.5426
+    'REQUEST_TIME' => 1486710951
+>>>>>>> ff33d51ce12369c70ca1d0e98b64c0a1aa5f62c7
 ]
