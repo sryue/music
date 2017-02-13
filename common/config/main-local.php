@@ -3,10 +3,11 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=ais_music',
             'username' => 'root',
-            'password' => '',
+            'password' => 'rootroot',
             'charset' => 'utf8',
+            'tablePrefix' => 'ais_'
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

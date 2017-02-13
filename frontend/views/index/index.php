@@ -255,6 +255,4 @@
                 </div>
               </div>
             </div>
-        <!-- PASTE above -->
-  
-    <!-- /content -->
+ 
