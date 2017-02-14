@@ -273,7 +273,7 @@
               </li>
               <li class="divider"></li>
               <li>
-                <a ui-sref="access.signin">Logout</a>
+                <a ui-sref="" href="?r=login/out">logout</a>
               </li>
             </ul>
             <!-- / dropdown -->

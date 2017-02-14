@@ -9,7 +9,7 @@ use yii\data\Pagination;
 /**
  * 音乐风格模块
  */
-class MstyleController extends Controller
+class MstyleController extends CommonController
 {
 	#404时调用
 	public $enableCsrfValidation =false;
