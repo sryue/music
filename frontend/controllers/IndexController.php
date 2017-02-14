@@ -7,7 +7,7 @@ use yii\web\Controller;
 /**
  * 主页
  */
-class IndexController extends Controller
+class IndexController extends CommonController
 {
 	#404时调用
 	public $enableCsrfValidation =false;

@@ -1,4 +1,4 @@
-<?php
+d<?php
 namespace frontend\controllers;
 
 use Yii;
@@ -13,7 +13,7 @@ use yii\data\Pagination;
 /**
  * 歌曲模块
  */
-class SongController extends Controller
+class SongController extends CommonController
 {
 	#404时调用
 	public $enableCsrfValidation =false;
