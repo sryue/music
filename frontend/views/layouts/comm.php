@@ -6,6 +6,7 @@
 //     echo "<script>alert('请先登录，防非法挺好用的');location.href='?r=login/login'</script>";die('please go back thanks');
 // }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -576,13 +577,13 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
+                    <a ui-sref="app.dashboard-v1" href="?r=systems/carousel_show">
                       <span>轮播图</span>
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
-                      <span>......</span>
+                    <a ui-sref="app.dashboard-v1" href="?r=systems/config">
+                      <span>网站配置</span>
                     </a>
                   </li>
                   <li ui-sref-active="active">

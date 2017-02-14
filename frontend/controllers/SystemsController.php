@@ -5,6 +5,7 @@ use Yii;
 use yii\web\Controller;
 use app\models\AisCarousel;
 use yii\web\UploadedFile;
+use app\models\Config;
 /**
  * 系统模块
  */
@@ -18,7 +19,6 @@ class SystemsController extends Controller
 	public function actionIndex(){
 		return $this->render('index');
 	}
-
 	//轮播图的添加
 	public function actionCarousel(){
 		//实例化M
@@ -90,6 +90,109 @@ class SystemsController extends Controller
 			echo "1";
 		}else
 			echo "0";
+	}
+	//网站配置
+	public function actionConfig()
+	{
+		$configObj = new Config();
+		$configList = $configObj->find()->orderBy('conf_order asc')->asArray()->all();
+		foreach ($configList as $k=>$v)
+		{
+			switch ($v['field_type'])
+			{
+				case 'text':
+					$configList[$k]['conf_content'] = "<input type='text' value='$v[conf_content]' name='data[$v[conf_id]][conf_content]' size='30'/>";
+					break;
+				case 'textarea':
+					$configList[$k]['conf_content'] = "<textarea name='data[$v[conf_id]][conf_content]' cols='30' rows='5'>". $v['conf_content']."</textarea>";
+					break;
+				case 'radio':
+					$arr = explode(',',$v['field_value']);
+					$configList[$k]['conf_content'] = '';
+					foreach ($arr as $key=>$val)
+					{
+						if($v['conf_content'] == $val)
+						{
+							$configList[$k]['conf_content'] .= "<input type='radio' name='data[$v[conf_id]][conf_content]' value='$val' checked>".$val;
+							$configList[$k]['conf_content'] .= "&nbsp;&nbsp;";
+						}else{
+							$configList[$k]['conf_content'] .= "<input type='radio' name='data[$v[conf_id]][conf_content]' value='$val' >".$val;
+							$configList[$k]['conf_content'] .= "&nbsp;&nbsp;";
+						}
+					}
+					break;
+			}
+		}
+//		print_r($configList);die;
+		return $this->render('config',['configList'=>$configList]);
+	}
+	//添加配置
+	public function actionCreateconfig()
+	{
+		$data['field_value'] = '';
+		if($data = Yii::$app->request->post()){
+			$configObj = new Config();
+			$configObj->conf_title = $data['conf_title'];
+			$configObj->conf_name = $data['conf_name'];
+			$configObj->conf_title = $data['conf_title'];
+			$configObj->field_type = $data['field_type'];
+			$configObj->conf_order = $data['conf_order'];
+			$configObj->conf_tips = $data['conf_tips'];
+			$configObj->field_value = $data['field_value'];
+			$res = $configObj->save();
+			if($res)
+			{
+				$this->message('添加配置项成功','?r=systems/config',1,3);
+			}else{
+				$this->message('添加配置项失败','?r=systems/config',1,3);
+			}
+		}else{
+			return $this->render('createconfig');
+		}
+	}
+	//保存配置项
+	public function actionSaveconfig()
+	{
+		$data = Yii::$app->request->post('data');
+		foreach ($data as $k=>$v)
+		{
+			$configObj = new Config();
+			$info = $configObj->findOne($k);
+			$info->conf_order = $v['order'];
+			$info->conf_content = $v['conf_content'];
+			$info->save();
+		}
+		$configList = $configObj->find()->asArray()->all();
+		$configData = [];
+		foreach($configList as $key=>$val)
+		{
+			$configData[$val['conf_name']] = $val['conf_content'];
+		}
+
+		$this->message('更新配置项成功','?r=systems/config',1,1);
+
+		//入配置项
+
+	}
+	//消息页面
+	public function message($msg='请先登录',$url='login',$wait=1,$type=0)
+	{
+		$data = [
+			'title'=> '提示消息',
+			'msg' => $msg,
+			'url' => $url,
+			'wait'=> $wait,
+			'type'=> $type
+		];
+		if ($type == 0)
+		{
+			$data['title'] = '错误消息';
+		}
+		if (empty($url))
+		{
+			$data['url'] = "javascript:history.back(-1);";
+		}
+		die( $this->renderpartial('message',$data)  );
 	}
 
 }

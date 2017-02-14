@@ -53,7 +53,7 @@ class SongController extends Controller
 		$res = $musicObj->save();
 		if($res)
 		{
-			$this->message('添加歌曲成功','?r=song/show',1,3);
+			$this->message('添加歌曲成功','?r=song/show',1,1);
 		}
 	}
 	//添加歌曲页面
@@ -121,17 +121,53 @@ class SongController extends Controller
 	}
 	//歌曲列表
 	public function actionShow(){
-		//查询歌曲
+		//所有语种
+		$langObj = new Languages();
+		$langList = $langObj->find()->asArray()->all();
+		//所有风格
+		$styleObJ = new Style();
+		$styleList = $styleObJ->find()->asArray()->all();
+		//接收搜索条件
+		$music_name = Yii::$app->request->get('music_name');
+		$lang = Yii::$app->request->get('lang');
+		$style_id = Yii::$app->request->get('style_id');
+		$start = strtotime(Yii::$app->request->get('start'));
+		$end = strtotime(Yii::$app->request->get('end'));
 		$musicObj = new Music();
-		$count = $musicObj->find()->count();
+		$musicObj = $musicObj->find();
+		//搜索条件拼接  默认值
+		$formData = ['music_name'=>'','lang'=>0,'style_id'=>0,'start'=>'','end'=>''];
+		if($music_name)
+		{
+			$musicObj = $musicObj->where(["like","music_name",$music_name]);
+			$formData['music_name'] = $music_name;
+		}
+		if($lang!=0)
+		{
+			$musicObj = $musicObj->andWhere("language = $lang");
+			$formData['lang'] = $lang;
+		}
+		if($style_id!=0)
+		{
+			$musicObj = $musicObj->andWhere("ais_music.style_id = $style_id");
+			$formData['style_id'] = $style_id;
+		}
+		if(!empty($start) && !empty($end))
+		{
+			$musicObj = $musicObj->andWhere(['>','lssue_time',$start]);
+			$musicObj = $musicObj->andWhere(['<','lssue_time',$end]);
+			$formData['start'] = date('Y-m-d',$start);
+			$formData['end'] = date('Y-m-d',$end);
+		}
+		$count = $musicObj->count();
 		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
-		$list = $musicObj->find()->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();
+		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();
 		foreach ($list as $k=>$v)
 		{
 			$arr = explode(',',$v['music_img']);
 			$list[$k]['music_img'] = $arr[0];
 		}
-		return $this->render('show',['list'=>$list,'pagination'=>$pagination]);
+		return $this->render('show',['list'=>$list,'pagination'=>$pagination,'langList'=>$langList,'styleList'=>$styleList,'formData'=>$formData]);
 	}
 	//删除数据库记录和音乐文件 图片文件
 	public function actionDelsong()
@@ -154,10 +190,10 @@ class SongController extends Controller
 		$res = $info->delete();
 		if($res)
 		{
-			$this->message('删除成功','?r=song/show',1,3);
+			$this->message('删除成功','?r=song/show',1,1);
 		}else
 		{
-			$this->message('删除失败','?r=song/show',0,3);
+			$this->message('删除失败','?r=song/show',0,1);
 		}
 	}
 	//试听

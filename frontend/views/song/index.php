@@ -136,8 +136,7 @@ $('#test').diyUpload({
 
 $("#songer").keyup(function(e)
 {
-    if(!e) var e = window.event; 
-    if(e.keyCode==32){
+    if(!e) var e = window.event;
        //尾词查询
        var value = $(this).val();
        if(value=='')
@@ -164,7 +163,6 @@ $("#songer").keyup(function(e)
                 }
              }
             });
-    }
 })
 //鼠标放上去事件
 $(document).on('mouseover','.Aresult',function()
