@@ -47,7 +47,7 @@ p{ margin-top: 5px;margin-bottom: 5px;}
           <label class="col-sm-2 control-label" for="input-id-1">演唱者</label>
            <div class="col-sm-10">
               <input type="text" class="form-control" id="songer">
-              <span id='songerTs'></span>
+              <span id='songerTs'>必须填写存在的歌手</span>&nbsp;&nbsp;<a href="?r=actor/actorshow" style="color: blue">去查看歌手</a>
               <input type='hidden' name='actor_id'>
               <div style="border:2px #CCCCCC solid;display:none" id="tailresult">
 
@@ -89,7 +89,7 @@ p{ margin-top: 5px;margin-bottom: 5px;}
         <div class="form-group">
           <label class="col-lg-2 control-label">歌曲图片</label>
 
-            <div id="box">
+            <div id="box" style="margin-left: 230px;">
             <div id="test" ></div>
             </div>
 
@@ -134,36 +134,36 @@ $('#test').diyUpload({
   accept: {}
 });
 
-$("#songer").keyup(function(e)
-{
-    if(!e) var e = window.event;
-       //尾词查询
-       var value = $(this).val();
-       if(value=='')
-       {
-          $("input[name=actor_id]").val('');
-          $("#tailresult").hide();
-          return false;
-       }
-          $.ajax({
-             type: "post",
-             url: "?r=song/tailsearch",
-             data: "value="+value,
-             dataType:'json',
-             success: function(result){
-                var str = '';
-                $(result).each(function(i){
-                   str += "<p><a href='javascript:void(0)' class='Aresult' acc="+ $(this)[0].actor_id +">"+ $(this)[0].actor_name +"</a></p>";
-                })
-                if(str!='')
-                {
-                    $("#tailresult").empty();
-                    $("#tailresult").append(str);
-                    $("#tailresult").show();
-                }
-             }
-            });
-})
+//$("#songer").keyup(function(e)
+//{
+//    if(!e) var e = window.event;
+//       //尾词查询
+//       var value = $(this).val();
+//       if(value=='')
+//       {
+//          $("input[name=actor_id]").val('');
+//          $("#tailresult").hide();
+//          return false;
+//       }
+//          $.ajax({
+//             type: "post",
+//             url: "?r=song/tailsearch",
+//             data: "value="+value,
+//             dataType:'json',
+//             success: function(result){
+//                var str = '';
+//                $(result).each(function(i){
+//                   str += "<p><a href='javascript:void(0)' class='Aresult' acc="+ $(this)[0].actor_id +">"+ $(this)[0].actor_name +"</a></p>";
+//                })
+//                if(str!='')
+//                {
+//                    $("#tailresult").empty();
+//                    $("#tailresult").append(str);
+//                    $("#tailresult").show();
+//                }
+//             }
+//            });
+//})
 //鼠标放上去事件
 $(document).on('mouseover','.Aresult',function()
 {

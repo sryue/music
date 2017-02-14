@@ -416,6 +416,11 @@
                       <span>歌曲评论列表</span>
                     </a>
                   </li>
+                  <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1" href="?r=mgc/index">
+                      <span>添加敏感词</span>
+                    </a>
+                  </li>
                 </ul>
               </li>
       
@@ -482,7 +487,7 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1" href="?r=mstyle/list">
+                    <a ui-sref="app.dashboard-v1">
                       <span>风格列表</span>
                     </a>
                   </li>
@@ -531,12 +536,12 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1" href="?r=actor/index">
+                    <a ui-sref="app.dashboard-v1" href="?r=actor/addactor">
                       <span>添加艺人</span>
                     </a>
                   </li>
-                  <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
+                  <li ui-sref-active="active" >
+                    <a ui-sref="app.dashboard-v1" href="?r=actor/actorshow">
                       <span>艺人列表</span>
                     </a>
                   </li>
@@ -547,16 +552,52 @@
                   </li>
                 </ul>
               </li>
+        
               <li>
                 <a href class="auto">      
                   <span class="pull-right text-muted">
                     <i class="fa fa-fw fa-angle-right text"></i>
                     <i class="fa fa-fw fa-angle-down text-active"></i>
                   </span>
-                <i class="glyphicon glyphicon-file icon"></i>
-                  <span class="font-bold" translate="aside.nav.DASHBOARD">文章管理</span>
+                 <i class="glyphicon glyphicon-file icon"></i>
+                    <span class="font-bold" translate="aside.nav.DASHBOARD">文章管理</span>
                 </a>
+                <ul class="nav nav-sub dk">
+                  <li class="nav-sub-header">
+                    <a href>
+                      <span translate="aside.nav.DASHBOARD"></span>
+                    </a>
+                  </li>
+                  <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1" href="?r=article/index">
+                      <span>添加文章</span>
+                    </a>
+                  </li>
+                  <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1" href="?r=article/show">
+                      <span>文章列表</span>
+                    </a>
+                  </li>
+                  <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1">
+                      <span>......</span>
+                    </a>
+                  </li>
+                  <li ui-sref-active="active">
+                    <a ui-sref="app.dashboard-v1">
+                      <span>......</span>
+                    </a>
+                  </li>
+                </ul>
               </li>
+          
+
+
+
+
+
+
+
                <li class="line dk"></li>
               <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
                 <span translate="aside.nav.HEADER">系统设置</span>
@@ -577,7 +618,7 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1" href="?r=systems/carousel_show">
+                    <a ui-sref="app.dashboard-v1">
                       <span>轮播图</span>
                     </a>
                   </li>
@@ -809,6 +850,7 @@
   
   <script src="./instyle/index/js/controllers/imgcrop.js"></script>
   <script src="./instyle/index/js/ng-img-crop.js"></script>
+
   <!-- Lazy loading -->
 
 

@@ -1,250 +1,84 @@
+<?php
+use yii\widgets\LinkPager;  
+use yii\helpers\Html;   
+?>
 <div class="bg-light lter b-b wrapper-md">
-  <h1 class="m-n font-thin h3">Static Table</h1>
+  <h1 class="m-n font-thin h3">评理管理</h1>
 </div>
 <div class="wrapper-md">
   <div class="row">
-    <div class="col-sm-6">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <span class="label bg-danger pull-right m-t-xs">4 left</span>
-          Tasks
-        </div>
-        <table class="table table-striped m-b-none">
-          <thead>
-            <tr>
-              <th>Progress</th>
-              <th>Item</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <div class="progress progress-sm progress-striped active m-t-xs m-b-none">
-                  <div class="progress-bar bg-success" data-toggle="tooltip" data-original-title="80%" style="width: 80%"></div>
-                </div>
-              </td>
-              <td>App prototype design</td>
-            </tr>
-            <tr>                    
-              <td>
-                <div class="progress progress-xs m-t-xs m-b-none">
-                  <div class="progress-bar bg-info" data-toggle="tooltip" data-original-title="40%" style="width: 40%"></div>
-                </div>
-              </td>
-              <td>Design documents</td>
-            </tr>
-            <tr>                    
-              <td>
-                <div class="progress progress-xs m-t-xs m-b-none">
-                  <div class="progress-bar bg-warning" data-toggle="tooltip" data-original-title="20%" style="width: 20%"></div>
-                </div>
-              </td>
-              <td>UI toolkit</td>
-            </tr>
-            <tr>                    
-              <td>
-                <div class="progress progress-xs m-t-xs m-b-none">
-                  <div class="progress-bar bg-danger" data-toggle="tooltip" data-original-title="15%" style="width: 15%"></div>
-                </div>
-              </td>
-              <td>Testing</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="panel panel-default">
-        <div class="panel-heading">Stats</div>
-        <table class="table table-striped m-b-none">
-          <thead>
-            <tr>
-              <th style="width:60px;" class="text-center">Graph</th>
-              <th>Item</th>                    
-              <th style="width:70px;"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>                    
-              <td>
-                <div ng-init="data1=[ 16,15,15,14,17,18,16,15,16 ]" ui-jq="sparkline" ui-options="{{data1}}, {type:'bar', height:19, barWidth:4, barSpacing:2, barColor:'{{app.color.success}}'}" class="sparkline inline">loading...</div>
-              </td>
-              <td>App downloads</td>
-              <td class="text-success">
-                <i class="fa fa-level-up"></i> 40%
-              </td>
-            </tr>
-            <tr>
-              <td class="text-center">
-                <div ng-init="data2=[ 60,30,10 ]" ui-jq="sparkline" ui-options="{{data2}}, {type:'pie', height:19, sliceColors:['{{app.color.info}}','#fff','{{app.color.warning}}']}" class="sparkline inline">loading...</div>
-              </td>
-              <td>Social connection</td>
-              <td class="text-success">
-                <i class="fa fa-level-up"></i> 20%
-              </td>
-            </tr>
-            <tr>                    
-              <td>
-                <div ng-init="data3=[ 16,15,15,14,17,18,16,15,16 ]" ui-jq="sparkline" ui-options="{{data3}}, {type:'line', height:19, width:60, lineColor:'{{app.color.primary}}', fillColor:'#fff'}" class="sparkline inline">loading...</div>
-              </td>
-              <td>Revenue</td>
-              <td class="text-warning">
-                <i class="fa fa-level-down"></i> 5%
-              </td>
-            </tr>
-            <tr>                    
-              <td>
-                <div ng-init="data4=[ 16,15,15,14,17,18,16,15,16 ]" ui-jq="sparkline" ui-options="{{data4}}, {type:'discrete', height:19, width:60, lineColor:'{{app.color.success}}'}" class="sparkline inline">loading...</div>
-              </td>
-              <td>Customer increase</td>
-              <td class="text-danger">
-                <i class="fa fa-level-down"></i> 20%
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+    <div class="col-sm-6"></div>
   </div>
   <div class="panel panel-default">
     <div class="panel-heading">
-      Responsive Table
+      评论列表
     </div>
     <div class="row wrapper">
-      <div class="col-sm-5 m-b-xs">
-        <select class="input-sm form-control w-sm inline v-middle">
-          <option value="0">Bulk action</option>
-          <option value="1">Delete selected</option>
-          <option value="2">Bulk edit</option>
-          <option value="3">Export</option>
-        </select>
-        <button class="btn btn-sm btn-default">Apply</button>                
+    
+      <div class="col-sm-3">
+      <form action="?r=song/discuss" method="post">
+        <div class="input-group">
+          <input type="text" name="search" class="input-sm form-control" placeholder="请输入搜索歌名..." value="<?php echo $search ?>">
+          <span class="input-group-btn">
+          <input type="submit" class="btn btn-sm btn-default" value="Go!">  
+          </span>
+        </div>
+       </form>
       </div>
       <div class="col-sm-4">
       </div>
-      <div class="col-sm-3">
-        <div class="input-group">
-          <input type="text" class="input-sm form-control" placeholder="Search">
-          <span class="input-group-btn">
-            <button class="btn btn-sm btn-default" type="button">Go!</button>
-          </span>
-        </div>
-      </div>
+
     </div>
     <div class="table-responsive">
       <table class="table table-striped b-t b-light">
         <thead>
           <tr>
-            <th style="width:20px;">
+            <th style="width:3%">
               <label class="i-checks m-b-none">
                 <input type="checkbox"><i></i>
               </label>
             </th>
-            <th>Project</th>
-            <th>Task</th>
-            <th>Date</th>
-            <th style="width:30px;"></th>
+            <th style="width:10%;">序号</th>
+            <th style="width:15%;">用户</th>
+            <th style="width:15%;">评论内容</th>
+            <th style="width:10%;">歌曲</th>
+            <th style="width:10%;">评论时间</th>
+            <th style="width:10%;">被点赞数</th>
+            <th style="width:10%;">被鄙视数</th>
+            <th style="width:10%;">操作</th>
           </tr>
         </thead>
         <tbody>
+        <?php foreach ($model   as $key => $val): ?>
           <tr>
             <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Idrawfast</td>
-            <td>4c</td>
-            <td>Jul 25, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
+            <td><?php echo $val['comm_id'] ?></td>
+            <td><?php echo $val['username'] ?></td>
+            <td><?php echo $val['comm_content'] ?></td>
+            <td><?php echo $val['music_name'] ?></td>
+            <td><?php echo $val['comm_time'] ?></td>
+            <td><?php echo $val['praise'] ?></td>
+            <td><?php echo $val['contempt'] ?></td>
+            <td><a href="?r=song/dis_del&id=<?php echo $val['comm_id'];if(isset($search) && !empty($search)){ echo '&search='.$search; } ?>">删除</a></td>
           </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Formasa</td>
-            <td>8c</td>
-            <td>Jul 22, 2013</td>
-            <td>
-              <a href ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Avatar system</td>
-            <td>15c</td>
-            <td>Jul 15, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Throwdown</td>
-            <td>4c</td>
-            <td>Jul 11, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Idrawfast</td>
-            <td>4c</td>
-            <td>Jul 7, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Formasa</td>
-            <td>8c</td>
-            <td>Jul 3, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Avatar system</td>
-            <td>15c</td>
-            <td>Jul 2, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
-          <tr>
-            <td><label class="i-checks m-b-none"><input type="checkbox" name="post[]"><i></i></label></td>
-            <td>Videodown</td>
-            <td>4c</td>
-            <td>Jul 1, 2013</td>
-            <td>
-              <a href class="active" ui-toggle-class><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
-            </td>
-          </tr>
+         <?php endforeach ?>
         </tbody>
       </table>
     </div>
     <footer class="panel-footer">
       <div class="row">
-        <div class="col-sm-4 hidden-xs">
-          <select class="input-sm form-control w-sm inline v-middle">
-            <option value="0">Bulk action</option>
-            <option value="1">Delete selected</option>
-            <option value="2">Bulk edit</option>
-            <option value="3">Export</option>
-          </select>
-          <button class="btn btn-sm btn-default">Apply</button>                  
-        </div>
+        
         <div class="col-sm-4 text-center">
-          <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
+          <small class="text-muted inline m-t-sm m-b-sm"></small>
         </div>
-        <div class="col-sm-4 text-right text-center-xs">                
+        <div>                
           <ul class="pagination pagination-sm m-t-none m-b-none">
-            <li><a href><i class="fa fa-chevron-left"></i></a></li>
-            <li><a href>1</a></li>
-            <li><a href>2</a></li>
-            <li><a href>3</a></li>
-            <li><a href>4</a></li>
-            <li><a href>5</a></li>
-            <li><a href><i class="fa fa-chevron-right"></i></a></li>
+            <li>
+            <?php 
+                echo LinkPager::widget([  
+                    'pagination' => $pages,  
+                ]);  
+            ?></li>
           </ul>
         </div>
       </div>
