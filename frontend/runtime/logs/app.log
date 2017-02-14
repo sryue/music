@@ -8927,3 +8927,921 @@ $_SERVER = [
     'REQUEST_TIME' => 1486710951
 >>>>>>> ff33d51ce12369c70ca1d0e98b64c0a1aa5f62c7
 ]
+2017-02-13 13:57:40 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 31018 bytes' 
+
+in D:\phpStudy\WWW\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\phpStudy\\WWW...', 86, Array)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-13 13:57:40 [::1][-][-][info][application] $_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54475'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965459.9515
+    'REQUEST_TIME' => 1486965459
+]
+2017-02-13 13:57:44 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'rootroot', NULL)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 D:\phpStudy\WWW\music\frontend\controllers\SongController.php(64): yii\db\ActiveQuery->all()
+#10 [internal function]: frontend\controllers\SongController->actionIndex()
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 D:\phpStudy\WWW\music\frontend\controllers\SongController.php(64): yii\db\ActiveQuery->all()
+#8 [internal function]: frontend\controllers\SongController->actionIndex()
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-13 13:57:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54475'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965463.4467
+    'REQUEST_TIME' => 1486965463
+]
+2017-02-13 13:58:23 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ais_music.ais_languages' doesn't exist' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\music\frontend\controllers\SongController.php(67): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionIndex()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ais_music.ais_languages' doesn't exist
+The SQL being executed was: SELECT * FROM `ais_languages`' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\music\frontend\controllers\SongController.php(67): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionIndex()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'ais_music.ais_languages' doesn't exist
+)
+
+2017-02-13 13:58:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54491'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965502.0989
+    'REQUEST_TIME' => 1486965502
+]
+2017-02-13 13:59:53 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 13:59:53 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '葛 '
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54531'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '10'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965593.2651
+    'REQUEST_TIME' => 1486965593
+]
+2017-02-13 13:59:56 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 13:59:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '葛'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54532'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '9'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965596.4963
+    'REQUEST_TIME' => 1486965596
+]
+2017-02-13 14:00:09 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:00:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '葛'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54535'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '9'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965609.287
+    'REQUEST_TIME' => 1486965609
+]
+2017-02-13 14:00:21 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:00:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '葛 '
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54542'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '10'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965621.6627
+    'REQUEST_TIME' => 1486965621
+]
+2017-02-13 14:00:31 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:00:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '[ '
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54543'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '8'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965631.7343
+    'REQUEST_TIME' => 1486965631
+]
+2017-02-13 14:03:13 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:03:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '徐'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54628'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '9'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965793.3425
+    'REQUEST_TIME' => 1486965793
+]
+2017-02-13 14:03:14 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:03:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '徐歌'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54630'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '12'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965794.2476
+    'REQUEST_TIME' => 1486965794
+]
+2017-02-13 14:03:14 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Redis' not found' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-13 14:03:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/tailsearch'
+]
+
+$_POST = [
+    'value' => '徐歌阳'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/tailsearch'
+    'QUERY_STRING' => 'r=song/tailsearch'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54632'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'CONTENT_LENGTH' => '15'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965794.7426
+    'REQUEST_TIME' => 1486965794
+]
+2017-02-13 14:03:56 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant fasle - assumed 'fasle'' in D:\phpStudy\WWW\music\frontend\controllers\UploadController.php:52
+Stack trace:
+#0 D:\phpStudy\WWW\music\frontend\controllers\UploadController.php(52): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\phpStudy\\WWW...', 52, Array)
+#1 D:\phpStudy\WWW\music\frontend\controllers\SongController.php(28): frontend\controllers\UploadController->upload('song', './music')
+#2 [internal function]: frontend\controllers\SongController->actionAddsong()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('addsong', Array)
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('song/addsong', Array)
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2017-02-13 14:03:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/addsong'
+]
+
+$_POST = [
+    'style_id' => '1'
+    'music_name' => '一万次悲伤'
+    'actor_id' => '17'
+    'language' => '3'
+    'music_img' => '/songUpload/6c0b8c0a304e251f1a3e3074a786c9177e3e5334.jpg'
+]
+
+$_FILES = [
+    'song' => [
+        'name' => '徐歌阳 - 一万次悲伤 (Live) [mqms2].mp3'
+        'type' => ''
+        'tmp_name' => ''
+        'error' => 1
+        'size' => 0
+    ]
+    'songbest' => [
+        'name' => '徐歌阳 - 一万次悲伤 (Live) [mqms2].mp3'
+        'type' => ''
+        'tmp_name' => ''
+        'error' => 1
+        'size' => 0
+    ]
+    'lyrics' => [
+        'name' => '新建文本文档 (2).txt'
+        'type' => 'text/plain'
+        'tmp_name' => 'C:\\Windows\\php8494.tmp'
+        'error' => 0
+        'size' => 782
+    ]
+    'file' => [
+        'name' => ''
+        'type' => ''
+        'tmp_name' => ''
+        'error' => 4
+        'size' => 0
+    ]
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '468'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/?r=song/addsong'
+    'QUERY_STRING' => 'r=song/addsong'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54642'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '8257237'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------141471557122437'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/?r=song/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486965836.085
+    'REQUEST_TIME' => 1486965836
+]

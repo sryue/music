@@ -129,7 +129,7 @@ class SongController extends Controller
 		foreach ($list as $k=>$v)
 		{
 			$arr = explode(',',$v['music_img']);
-			$list[$k]['music_img'] = $arr[0];
+			$list[$k]['music_img'] = './'.$arr[0];
 		}
 		return $this->render('show',['list'=>$list,'pagination'=>$pagination]);
 	}

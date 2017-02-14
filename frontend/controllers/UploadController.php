@@ -49,7 +49,7 @@ class UploadController extends Controller
 		}
 		else
 		{
-			return fasle;
+			return false;
 		}
 	}
 	//配置文件格式
