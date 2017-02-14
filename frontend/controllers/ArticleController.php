@@ -154,11 +154,11 @@ class ArticleController extends Controller
 
 			}
 			////实例化M
-			/*$modelObj = new AisArticle();
+			$modelObj = new AisArticle();
 				foreach ($date as $key => $val) {
 					$modelObj->$key =$val;
 				}
-				$ar = $modelObj->save();*/
+				$ar = $modelObj->save();
 
 		}
 
