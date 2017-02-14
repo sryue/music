@@ -15,12 +15,12 @@ class CommonController extends Controller
     public $layout = 'comm';
 
     public function init(){
-        $session = Yii::$app->session;
-        $session->open();
-        $name=$session->get('name');
-        if($name==""){
-            echo "<script> alert('请先登录');window.location.href='?r=login/index';</script>";
-        }
+//        $session = Yii::$app->session;
+//        $session->open();
+//        $name=$session->get('name');
+//        if($name==""){
+//            echo "<script> alert('请先登录');window.location.href='?r=login/index';</script>";
+//        }
     }
 }
 ?>

@@ -9071,3 +9071,1221 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1486982668.523
     'REQUEST_TIME' => 1486982668
 ]
+2017-02-14 07:22:45 [::1][-][24shfunv74imls2lktlsqhhtk5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: actor/actorshow' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('actorshow', Array)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('actor/actorshow', Array)
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-02-14 07:22:45 [::1][-][24shfunv74imls2lktlsqhhtk5][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2140'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=actor/actorshow'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49912'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487056965.0602
+    'REQUEST_TIME' => 1487056965
+]
+2017-02-14 07:22:45 [::1][-][24shfunv74imls2lktlsqhhtk5][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library 'D:\phpStudy\php\php-5.6.27-nts\ext\php_pdo_oci.dll' - �Ҳ���ָ����ģ�顣
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:22:45 [::1][-][24shfunv74imls2lktlsqhhtk5][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2140'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=actor/actorshow'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49912'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487056965.0602
+    'REQUEST_TIME' => 1487056965
+]
+2017-02-14 07:22:55 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:22:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2140'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=song/discuss'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49930'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=actor'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487056975.7342
+    'REQUEST_TIME' => 1487056975
+]
+2017-02-14 07:29:40 [::1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library 'D:\phpStudy\php\php-5.6.27-nts\ext\php_pdo_oci.dll' - �Ҳ���ָ����ģ�顣
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:29:40 [::1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50465'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=mstyle/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057380.1888
+    'REQUEST_TIME' => 1487057380
+]
+2017-02-14 07:32:38 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'rootroot', NULL)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(754): yii\db\Schema->quoteValue('root')
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('root')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(809): yii\db\Command->getRawSql()
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#10 D:\phpStudy\WWW\music\frontend\controllers\LoginController.php(33): yii\db\Query->all()
+#11 [internal function]: frontend\controllers\LoginController->actionYan()
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('yan', Array)
+#15 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/yan', Array)
+#16 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(754): yii\db\Schema->quoteValue('root')
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('root')
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(809): yii\db\Command->getRawSql()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 D:\phpStudy\WWW\music\frontend\controllers\LoginController.php(33): yii\db\Query->all()
+#9 [internal function]: frontend\controllers\LoginController->actionYan()
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('yan', Array)
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/yan', Array)
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2017-02-14 07:32:37 [::1][-][-][info][application] $_GET = [
+    'r' => 'login/yan'
+]
+
+$_POST = [
+    'code' => '6964'
+    'name' => 'root'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'authcode' => '6964'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=login/yan'
+    'QUERY_STRING' => 'r=login/yan'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50702'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=login/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057557.0041
+    'REQUEST_TIME' => 1487057557
+]
+2017-02-14 07:33:13 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'rootroot', NULL)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(754): yii\db\Schema->quoteValue('root')
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('root')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(809): yii\db\Command->getRawSql()
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#10 D:\phpStudy\WWW\music\frontend\controllers\LoginController.php(33): yii\db\Query->all()
+#11 [internal function]: frontend\controllers\LoginController->actionYan()
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('yan', Array)
+#15 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/yan', Array)
+#16 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(754): yii\db\Schema->quoteValue('root')
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(175): yii\db\Connection->quoteValue('root')
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(809): yii\db\Command->getRawSql()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 D:\phpStudy\WWW\music\frontend\controllers\LoginController.php(33): yii\db\Query->all()
+#9 [internal function]: frontend\controllers\LoginController->actionYan()
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('yan', Array)
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/yan', Array)
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2017-02-14 07:33:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'login/yan'
+]
+
+$_POST = [
+    'code' => '4947'
+    'name' => 'root'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'authcode' => '4947'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2224'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=login/yan'
+    'QUERY_STRING' => 'r=login/yan'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50759'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'CONTENT_LENGTH' => '27'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=login/index'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057591.9613
+    'REQUEST_TIME' => 1487057591
+]
+2017-02-14 07:37:33 [::1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library 'D:\phpStudy\php\php-5.6.27-nts\ext\php_pdo_oci.dll' - �Ҳ���ָ����ģ�顣
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:37:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'special/index'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=special/index'
+    'QUERY_STRING' => 'r=special/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51092'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=mstyle/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057853.1458
+    'REQUEST_TIME' => 1487057853
+]
+2017-02-14 07:38:02 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'rootroot', NULL)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(300): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#9 D:\phpStudy\WWW\music\frontend\controllers\UsersController.php(34): yii\db\Query->count()
+#10 [internal function]: frontend\controllers\UsersController->actionShow()
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#15 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(300): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#7 D:\phpStudy\WWW\music\frontend\controllers\UsersController.php(34): yii\db\Query->count()
+#8 [internal function]: frontend\controllers\UsersController->actionShow()
+#9 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+Additional Information:
+
+2017-02-14 07:38:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'users/show'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=users/show'
+    'QUERY_STRING' => 'r=users/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51132'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=users/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057880.9113
+    'REQUEST_TIME' => 1487057880
+]
+2017-02-14 07:38:17 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:38:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51146'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057897.3694
+    'REQUEST_TIME' => 1487057897
+]
+2017-02-14 07:38:18 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\phpStudy\WWW\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:38:18 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51154'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=admin/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487057898.1158
+    'REQUEST_TIME' => 1487057898
+]
+2017-02-14 07:42:47 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'rootroot', NULL)
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#9 D:\phpStudy\WWW\music\frontend\controllers\ActorController.php(164): yii\db\ActiveQuery->all()
+#10 D:\phpStudy\WWW\music\frontend\controllers\ActorController.php(33): frontend\controllers\ActorController->actionGetarea()
+#11 [internal function]: frontend\controllers\ActorController->actionAddactor()
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(858): yii\db\Connection->open()
+#1 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Connection.php(845): yii\db\Connection->getMasterPdo()
+#2 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare('<span class="ke...')
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#7 D:\phpStudy\WWW\music\frontend\controllers\ActorController.php(164): yii\db\ActiveQuery->all()
+#8 D:\phpStudy\WWW\music\frontend\controllers\ActorController.php(33): frontend\controllers\ActorController->actionGetarea()
+#9 [internal function]: frontend\controllers\ActorController->actionAddactor()
+#10 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2017-02-14 07:42:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=actor/addactor'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51469'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=actor/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487058166.185
+    'REQUEST_TIME' => 1487058166
+]
+2017-02-14 07:45:33 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Actor' in file: D:\phpStudy\WWW\music/frontend/models/Actor.php. Namespace missing?' in D:\phpStudy\WWW\music\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\phpStudy\WWW\music\frontend\controllers\ActorController.php(75): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\ActorController->actionActorshow()
+#3 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('actorshow', Array)
+#6 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('actor/actorshow', Array)
+#7 D:\phpStudy\WWW\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\music\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2017-02-14 07:45:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2188'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=actor/actorshow'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51740'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=actor/addactor'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487058333.9296
+    'REQUEST_TIME' => 1487058333
+]
+2017-02-14 07:47:05 [::1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library 'D:\phpStudy\php\php-5.6.27-nts\ext\php_pdo_oci.dll' - �Ҳ���ָ����ģ�顣
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 07:47:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'iweb_safecode' => 'a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg'
+    '1501phpA孙汝月_mp4' => '74'
+    '4180d2b92592abe7eb43f74db9a2857a_png' => '2'
+    '张庆达_2016-11-24_084420_wmv' => '91'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_-_副本_png' => '1'
+    '张庆达_2016-11-21_085529_wmv' => '176'
+    '4bb0709cf7fdcd413b6ab3a20601512c_png' => '2'
+    'ae3141e7d3b7c2ac3bdf12ac6b0e4cfc_png' => '1'
+    '318465_02_jpg' => '1'
+    '318465_01_gif' => '1'
+    'CNZZDATA155540' => 'cnzz_eid=1871950897-1480569903-http%3A%2F%2Flocalhost%2F&ntime=1481012842'
+    '__xsptplus8' => '8.6.1482233905.1482233989.2#4|||||##1Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd#'
+    'sYQDUGqqzHsearch_history' => '%u79DF%u623F%u7F51|1'
+    'style' => 'styles2'
+    'pgv_pvi' => '2174869504'
+    '__utma' => '111872281.910717724.1486627164.1486627164.1486637690.2'
+    '__utmz' => '111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'CNZZDATA921634' => 'cnzz_eid=54165920-1486793732-http%3A%2F%2Flocalhost%2F&ntime=1486982741'
+    'CNZZDATA2629111' => 'cnzz_eid=163505779-1486947210-http%3A%2F%2Flocalhost%2F&ntime=1486979610'
+    'cna' => 'vjO9ECFVEyECAXL57t4HMryk'
+    'l' => 'AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o'
+    'isg' => 'AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg'
+    'PHPSESSID' => '24shfunv74imls2lktlsqhhtk5'
+    '_csrf' => '37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"chijyf26BdPwRc0JhBzZAde1ruCzBfIH\";}'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.5.38;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\二宝\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\二宝\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2464'
+    'SCRIPT_NAME' => '/music/frontend/web/index.php'
+    'REQUEST_URI' => '/music/frontend/web/index.php?r=actor/actorshow'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51931'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'iweb_safecode=a89191ad46MTAwMTI1MDY3OTFmNTBjYjY7NTAzNjQyPTFjYmJiZDkzNmc2OWZiMTVhODE2MDEzNDc3MjJtbjY5MzY4ZThqNg; 1501phpA孙汝月.mp4=74; 4180d2b92592abe7eb43f74db9a2857a.png=2; 张庆达_2016-11-24_084420.wmv=91; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc - 副本.png=1; 张庆达_2016-11-21_085529.wmv=176; 4bb0709cf7fdcd413b6ab3a20601512c.png=2; ae3141e7d3b7c2ac3bdf12ac6b0e4cfc.png=1; 318465_02.jpg=1; 318465_01.gif=1; CNZZDATA155540=cnzz_eid%3D1871950897-1480569903-http%253A%252F%252Flocalhost%252F%26ntime%3D1481012842; __xsptplus8=8.6.1482233905.1482233989.2%234%7C%7C%7C%7C%7C%23%231Tr_gdb2FYgHpWJq5FjAlnFMeUcZdoAd%23; sYQDUGqqzHsearch_history=%u79DF%u623F%u7F51%7C1; style=styles2; pgv_pvi=2174869504; __utma=111872281.910717724.1486627164.1486627164.1486637690.2; __utmz=111872281.1486627164.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); CNZZDATA921634=cnzz_eid%3D54165920-1486793732-http%253A%252F%252Flocalhost%252F%26ntime%3D1486982741; CNZZDATA2629111=cnzz_eid%3D163505779-1486947210-http%253A%252F%252Flocalhost%252F%26ntime%3D1486979610; cna=vjO9ECFVEyECAXL57t4HMryk; l=AmlpRiW7sfxF9Ph-DK2NoebaeR/Hbl1o; isg=AkFBvM2C_TFWyhEFB7svnSGDUY0S9LVgVrAu16OSZcinimRc6r2WMWfKGkUg; PHPSESSID=24shfunv74imls2lktlsqhhtk5; _csrf=37db7437eb057e8f1bb0daa4fcc3080d1b1861bb28dd2d86bfbc5a50f7863ba3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22chijyf26BdPwRc0JhBzZAde1ruCzBfIH%22%3B%7D'
+    'HTTP_REFERER' => 'http://localhost/music/frontend/web/index.php?r=actor/addactor'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487058424.6087
+    'REQUEST_TIME' => 1487058424
+]

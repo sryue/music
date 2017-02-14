@@ -535,12 +535,12 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1" href="?r=actor/index">
+                    <a ui-sref="app.dashboard-v1" href="?r=actor/addactor">
                       <span>添加艺人</span>
                     </a>
                   </li>
-                  <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
+                  <li ui-sref-active="active" >
+                    <a ui-sref="app.dashboard-v1" href="?r=actor/actorshow">
                       <span>艺人列表</span>
                     </a>
                   </li>
