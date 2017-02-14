@@ -190,12 +190,6 @@ class SongController extends CommonController
 			}
 		    die( $this->renderpartial('message',$data)  );
 	 }
-<<<<<<< HEAD
-	//歌曲评论列表
-
-=======
-	
->>>>>>> 6b0af2f3c8e729e8ce8e609f57bebc1f88f7cc12
 	//多个图片上传插件
 	public function actionUploadimg()
 	{

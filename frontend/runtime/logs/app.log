@@ -13674,3 +13674,710 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487062072.6329
     'REQUEST_TIME' => 1487062072
 ]
+2017-02-14 11:18:27 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:18:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55012'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/git1/music/frontend/web/'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071107.106
+    'REQUEST_TIME' => 1487071107
+]
+2017-02-14 11:18:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:18:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=actor/addactor'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071110.156
+    'REQUEST_TIME' => 1487071110
+]
+2017-02-14 11:18:34 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL), expecting function (T_FUNCTION)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:193
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 11:18:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=actor/addactor'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071114.473
+    'REQUEST_TIME' => 1487071114
+]
+2017-02-14 11:18:34 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 F:\bigOne\git1\music\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2017-02-14 11:18:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=actor/addactor'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071114.473
+    'REQUEST_TIME' => 1487071114
+]
+2017-02-14 11:18:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<<' (T_SL), expecting function (T_FUNCTION)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:193
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 11:18:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=actor/addactor'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071121.431
+    'REQUEST_TIME' => 1487071121
+]
+2017-02-14 11:18:41 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 F:\bigOne\git1\music\vendor\yiisoft\yii2\base\ErrorHandler.php(247): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2017-02-14 11:18:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=actor/addactor'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071121.431
+    'REQUEST_TIME' => 1487071121
+]
+2017-02-14 11:20:14 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:20:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=actor/addactor'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071214.482
+    'REQUEST_TIME' => 1487071214
+]
+2017-02-14 11:20:17 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:20:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=song/discuss'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071217.332
+    'REQUEST_TIME' => 1487071217
+]
+2017-02-14 11:20:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:20:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'mgc/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=song/discuss'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=mgc/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=mgc/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071218.919
+    'REQUEST_TIME' => 1487071218
+]
+2017-02-14 11:20:21 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:20:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=mgc/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071221.146
+    'REQUEST_TIME' => 1487071221
+]
+2017-02-14 11:20:25 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 32093 bytes' 
+
+in F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\bigOne\\git1\\...', 86, Array)
+#1 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('F:\\bigOne\\git1\\...', Array)
+#3 F:\bigOne\git1\music\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 F:\bigOne\git1\music\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-14 11:20:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+    'PHPSESSID' => 'lutq8nu39n17iv491r8bmm7lg3'
+    '_csrf' => '6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3Ede16LiOSL9diSfQm8dOFHmaHctu3w1\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=song/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254; PHPSESSID=lutq8nu39n17iv491r8bmm7lg3; _csrf=6f57fc528a427560e982a4f93c842850f785e970f1269c07f432bf9ae8e69949a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223Ede16LiOSL9diSfQm8dOFHmaHctu3w1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '55399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/show'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487071225.008
+    'REQUEST_TIME' => 1487071225
+]
