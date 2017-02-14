@@ -1,4 +1,4 @@
-d<?php
+<?php
 namespace frontend\controllers;
 
 use Yii;
@@ -190,9 +190,7 @@ class SongController extends CommonController
 		    die( $this->renderpartial('message',$data)  );
 	 }
 	//歌曲评论列表
-	public function actionDiscuss(){
-		return $this->render('discuss');
-	}
+
 	//多个图片上传插件
 	public function actionUploadimg()
 	{

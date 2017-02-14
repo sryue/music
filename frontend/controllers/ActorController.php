@@ -37,6 +37,7 @@ class ActorController extends Controller
     {
         $upload = new UploadController();
         $res = $upload->upload('actor_img');
+//        var_dump($res);die;
         if($res)
         {
             $img_info = $upload->get_data();
