@@ -39,35 +39,15 @@
       </div>
     </div>
     <div class="col-sm-6">
+        
       <div class="panel panel-default">
-        <div class="panel-heading font-bold">Horizontal form</div>
+      &nbsp;&nbsp;&nbsp;采集最新的49条新闻
+        <div class="panel-heading font-bold">一键采集</div>
         <div class="panel-body">
-          <form class="bs-example form-horizontal">
-            <div class="form-group">
-              <label class="col-lg-2 control-label">Email</label>
-              <div class="col-lg-10">
-                <input type="email" class="form-control" placeholder="Email">
-                <span class="help-block m-b-none">Example block-level help text here.</span>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="col-lg-2 control-label">Password</label>
-              <div class="col-lg-10">
-                <input type="password" class="form-control" placeholder="Password">
-              </div>
-            </div>
+          <form class="bs-example form-horizontal" action="?r=article/curls" method="post">
             <div class="form-group">
               <div class="col-lg-offset-2 col-lg-10">
-                <div class="checkbox">
-                  <label class="i-checks">
-                    <input type="checkbox" checked><i></i> Remember me
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-offset-2 col-lg-10">
-                <button type="submit" class="btn btn-sm btn-info">Sign in</button>
+                采集：<button type="submit" class="btn btn-sm btn-info">开始采集</button>
               </div>
             </div>
           </form>
