@@ -22,8 +22,8 @@ $this->title = '多条件查询';
                     'method'=>'get',
             ]);           
       ?>
-      标题：<input type="text" name="title" value="<?php echo $where['title'] ?>">
-      内容：<input type="text" name="content" value="<?php echo $where['content'] ?>">
+      标题：<input type="text" name="title" value="<?php echo empty($where['title'])?'' : $where['title'] ?>">
+      内容：<input type="text" name="content" value="<?php echo empty($where['conetent'])?'' : $where['content'] ?>">
       <?php
         echo Html::submitButton('搜索',['class'=>'btn btn-primary']);
         ActiveForm::end();
@@ -52,10 +52,14 @@ $this->title = '多条件查询';
         <?php foreach ($data as $key => $val): ?>
           <tr>
               <td><?php echo $val['art_title'] ?></td>
-              <td><img src="./instyle/images/article/<?php echo $val['art_img'] ?>" width='60px' height='60px' id="img"></td>
+              <td><img src="./instyle/images/article/<?php echo $val['art_img'] ?>" width='60px' height='60px' id="img" alt="图片不显示"></td>
               <td><?php echo $val['art_starttime'] ?></td>
-              <td><?php echo $val['art_content'] ?></td>
-              <td><input type="button" class="btn btn-default btn-xs" id="<?php echo $val['art_id'] ?>" value="Remove"></td>      
+              <td>
+              <?php 
+                 echo  mb_substr(strip_tags($val['art_content']), 50,120,'UTF8').'....';
+              ?>
+              </td>
+              <td><input type="button" name="btn" class="btn btn-default btn-xs" id="<?php echo $val['art_id'] ?>" value="Remove"></td>      
           </tr>
          <?php endforeach ?>
         </tbody>
@@ -80,14 +84,14 @@ $this->title = '多条件查询';
 <script src="./jquery-1.7.js"></script>
 <script>
     $(function(){
-        $("input:button").click(function(){
+        $("input[name='btn']").click(function(){
             if(confirm("您确定要删除?")){
               _this = $(this);
               var id = $(this).attr("id");
               //发送id  删除
               $.ajax({
                  type: "POST",
-                 url: "?r=systems/del",
+                 url: "?r=article/del",
                  data: "id="+id,
                  success: function(msg){
                      if(msg==1){

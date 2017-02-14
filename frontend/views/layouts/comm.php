@@ -273,7 +273,7 @@
               </li>
               <li class="divider"></li>
               <li>
-                <a ui-sref="" href="?r=login/out">logout</a>
+                <a ui-sref="access.signin">Logout</a>
               </li>
             </ul>
             <!-- / dropdown -->
@@ -573,8 +573,8 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
-                      <span>......</span>
+                    <a ui-sref="app.dashboard-v1" href="?r=article/show">
+                      <span>文章列表</span>
                     </a>
                   </li>
                   <li ui-sref-active="active">
