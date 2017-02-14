@@ -1,4 +1,4 @@
-d<?php
+<?php
 namespace frontend\controllers;
 
 use Yii;
@@ -7,6 +7,7 @@ use app\models\Style;
 use app\models\Languages;
 use app\models\Actor;
 use app\models\Music;
+use app\models\AisComment;
 use app\models\UploadForm;
 use frontend\controllers\UploadController;
 use yii\data\Pagination;
@@ -189,10 +190,7 @@ class SongController extends CommonController
 			}
 		    die( $this->renderpartial('message',$data)  );
 	 }
-	//歌曲评论列表
-	public function actionDiscuss(){
-		return $this->render('discuss');
-	}
+	
 	//多个图片上传插件
 	public function actionUploadimg()
 	{

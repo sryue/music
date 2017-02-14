@@ -10289,3 +10289,2075 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487058424.6087
     'REQUEST_TIME' => 1487058424
 ]
+2017-02-14 08:10:15 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in F:\bigOne\git1\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:10:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62121'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059815.578
+    'REQUEST_TIME' => 1487059815
+]
+2017-02-14 08:10:36 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in F:\bigOne\git1\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:10:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62131'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/show'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059836.892
+    'REQUEST_TIME' => 1487059836
+]
+2017-02-14 08:10:56 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in F:\bigOne\git1\music\frontend\controllers\SongController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:10:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62145'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059856.74
+    'REQUEST_TIME' => 1487059856
+]
+2017-02-14 08:11:25 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:11:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059885.062
+    'REQUEST_TIME' => 1487059885
+]
+2017-02-14 08:11:32 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:11:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059892.283
+    'REQUEST_TIME' => 1487059892
+]
+2017-02-14 08:11:35 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:11:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059895.82
+    'REQUEST_TIME' => 1487059895
+]
+2017-02-14 08:11:55 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:11:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059915.858
+    'REQUEST_TIME' => 1487059915
+]
+2017-02-14 08:12:05 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:12:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62173'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/show'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059925.164
+    'REQUEST_TIME' => 1487059925
+]
+2017-02-14 08:12:12 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:12:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62184'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059932.744
+    'REQUEST_TIME' => 1487059932
+]
+2017-02-14 08:12:22 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:12:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487059942.256
+    'REQUEST_TIME' => 1487059942
+]
+2017-02-14 08:15:05 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:198
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:15:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62210'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060105.044
+    'REQUEST_TIME' => 1487060105
+]
+2017-02-14 08:15:07 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:198
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:15:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62216'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060107.94
+    'REQUEST_TIME' => 1487060107
+]
+2017-02-14 08:15:08 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:198
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:15:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060108.623
+    'REQUEST_TIME' => 1487060108
+]
+2017-02-14 08:15:12 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:198
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:15:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060112.35
+    'REQUEST_TIME' => 1487060112
+]
+2017-02-14 08:18:24 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62309'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060304.574
+    'REQUEST_TIME' => 1487060304
+]
+2017-02-14 08:18:28 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62313'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060308.452
+    'REQUEST_TIME' => 1487060308
+]
+2017-02-14 08:18:42 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62327'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060322.844
+    'REQUEST_TIME' => 1487060322
+]
+2017-02-14 08:18:44 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62328'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060324.157
+    'REQUEST_TIME' => 1487060324
+]
+2017-02-14 08:18:45 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060325.037
+    'REQUEST_TIME' => 1487060325
+]
+2017-02-14 08:18:45 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62330'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060325.596
+    'REQUEST_TIME' => 1487060325
+]
+2017-02-14 08:18:45 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:18:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62331'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060325.643
+    'REQUEST_TIME' => 1487060325
+]
+2017-02-14 08:19:44 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:19:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060384.151
+    'REQUEST_TIME' => 1487060384
+]
+2017-02-14 08:19:45 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:19:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060385.851
+    'REQUEST_TIME' => 1487060385
+]
+2017-02-14 08:19:54 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\SongController::actionDiscuss()' in F:\bigOne\git1\music\frontend\controllers\SongController.php:340
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:19:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=article/show'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62349'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/index'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060394.254
+    'REQUEST_TIME' => 1487060394
+]
+2017-02-14 08:20:34 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\AisComment' not found' in F:\bigOne\git1\music\frontend\controllers\SongController.php:349
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:20:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=song/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62368'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060434.591
+    'REQUEST_TIME' => 1487060434
+]
+2017-02-14 08:20:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\AisComment' not found' in F:\bigOne\git1\music\frontend\controllers\SongController.php:349
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:20:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62373'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060448.743
+    'REQUEST_TIME' => 1487060448
+]
+2017-02-14 08:21:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'use' (T_USE)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:21:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060507.825
+    'REQUEST_TIME' => 1487060507
+]
+2017-02-14 08:21:49 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'use' (T_USE)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:21:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62395'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060509.345
+    'REQUEST_TIME' => 1487060509
+]
+2017-02-14 08:21:50 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'use' (T_USE)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:21:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62396'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060510.152
+    'REQUEST_TIME' => 1487060510
+]
+2017-02-14 08:21:50 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'use' (T_USE)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:21:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62397'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060510.421
+    'REQUEST_TIME' => 1487060510
+]
+2017-02-14 08:21:50 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'use' (T_USE)' in F:\bigOne\git1\music\frontend\controllers\SongController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:21:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/discuss'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=admin/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=song/discuss'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=song/discuss'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060510.755
+    'REQUEST_TIME' => 1487060510
+]
+2017-02-14 08:25:05 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Areas' not found' in F:\bigOne\git1\music\frontend\controllers\ActorController.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:25:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=special/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62623'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=actor/addactor'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060705.916
+    'REQUEST_TIME' => 1487060705
+]
+2017-02-14 08:25:19 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Areas' not found' in F:\bigOne\git1\music\frontend\controllers\ActorController.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:25:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=special/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62633'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=actor/addactor'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060719.905
+    'REQUEST_TIME' => 1487060719
+]
+2017-02-14 08:25:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Areas' not found' in F:\bigOne\git1\music\frontend\controllers\ActorController.php:95
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:25:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=special/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62645'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=actor/actorshow'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060756.039
+    'REQUEST_TIME' => 1487060756
+]
+2017-02-14 08:26:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Areas' not found' in F:\bigOne\git1\music\frontend\controllers\ActorController.php:95
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:26:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/actorshow'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/?r=special/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/actorshow'
+    'REQUEST_URI' => '/git1/music/frontend/web/?r=actor/actorshow'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487060767.175
+    'REQUEST_TIME' => 1487060767
+]
+2017-02-14 08:34:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Areas' not found' in F:\bigOne\git1\music\frontend\controllers\ActorController.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-14 08:34:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'actor/addactor'
+]
+
+$_COOKIE = [
+    'Hm_lvt_f9f00422e358e536c9180a0441979ef8' => '1486989379'
+    'Hm_lvt_f488ded6e4015c3c868d16997d0959a7' => '1486989379'
+    'wdcid' => '17d334d00fef6346'
+    'wdlast' => '1486989379'
+    'CNZZDATA553278' => 'cnzz_eid=1866217198-1486989631-http%3A%2F%2Fyi.big.com%2F&ntime=1487027544'
+    'PHPSESSID' => '6j60v7sjg5rkisu7qjupmvmsg1'
+    '_csrf' => '8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"12xroqD5mI60ylQEZfqf72kuwsDHcp8d\";}'
+    'CNZZDATA576464' => 'cnzz_eid=1837015510-1487030254-http%3A%2F%2Fyi.big.com%2F&ntime=1487030254'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi.big.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yi.big.com/git1/music/frontend/web/index.php?r=article/index'
+    'HTTP_COOKIE' => 'Hm_lvt_f9f00422e358e536c9180a0441979ef8=1486989379; Hm_lvt_f488ded6e4015c3c868d16997d0959a7=1486989379; wdcid=17d334d00fef6346; wdlast=1486989379; CNZZDATA553278=cnzz_eid%3D1866217198-1486989631-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487027544; PHPSESSID=6j60v7sjg5rkisu7qjupmvmsg1; _csrf=8b61a8011d7ea9bd9bbd08b5957b95740c81de8069e733bf932afff6891d0bcba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2212xroqD5mI60ylQEZfqf72kuwsDHcp8d%22%3B%7D; CNZZDATA576464=cnzz_eid%3D1837015510-1487030254-http%253A%252F%252Fyi.big.com%252F%26ntime%3D1487030254'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'E:\\phpStudy\\MySQL\\bin;E:\\我的学习软件\\必用软件\\Turtle\\bin;;E:\\Git\\G;t64\\Git\\cmd;C;\\Windows\\System32;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\wbem;F:\\Git\\TortoiseGit\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.4.45'
+    'SERVER_NAME' => 'yi.big.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/bigOne'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/bigOne'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'F:/bigOne/git1/music/frontend/web/index.php'
+    'REMOTE_PORT' => '62832'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=actor/addactor'
+    'REQUEST_URI' => '/git1/music/frontend/web/index.php?r=actor/addactor'
+    'SCRIPT_NAME' => '/git1/music/frontend/web/index.php'
+    'PHP_SELF' => '/git1/music/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487061265.402
+    'REQUEST_TIME' => 1487061265
+]
