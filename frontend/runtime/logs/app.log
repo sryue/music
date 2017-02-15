@@ -24613,3 +24613,200 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487079165.2866
     'REQUEST_TIME' => 1487079165
 ]
+2017-02-15 18:58:12 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: spe_name' in E:\phpStudy\WWW\training\music\frontend\views\song\show.php:76
+Stack trace:
+#0 E:\phpStudy\WWW\training\music\frontend\views\song\show.php(76): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\phpStudy\\WWW...', 76, Array)
+#1 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\View.php(325): require('E:\\phpStudy\\WWW...')
+#2 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\phpStudy\\WWW...', Array)
+#3 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\phpStudy\\WWW...', Array, Object(frontend\controllers\SongController))
+#4 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('show', Array, Object(frontend\controllers\SongController))
+#5 E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php(180): yii\base\Controller->render('show', Array)
+#6 [internal function]: frontend\controllers\SongController->actionShow()
+#7 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#10 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('song/show', Array)
+#11 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\phpStudy\WWW\training\music\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2017-02-15 18:58:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    'Hm_lvt_407473d433e871de861cf818aa1405a1' => '1486982072,1487036484,1487072409,1487142501'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;F:\\Program Files (x86)\\bin;E:\\phpStudy\\php55n\\;E:\\phpStudy\\MySQL\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zk\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2212'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=song/show'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57736'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/training/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.mymusic.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'Hm_lvt_407473d433e871de861cf818aa1405a1=1486982072,1487036484,1487072409,1487142501'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.mymusic.com/?r=song/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0.10586; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2950.5 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.mymusic.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487156290.7378
+    'REQUEST_TIME' => 1487156290
+]
+2017-02-15 19:01:35 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'unlink(.//songUpload/1487079210.jpg): No such file or directory' in E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php:195
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'unlink(.//songU...', 'E:\\phpStudy\\WWW...', 195, Array)
+#1 E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php(195): unlink('.//songUpload/1...')
+#2 [internal function]: frontend\controllers\SongController->actionDelsong()
+#3 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delsong', Array)
+#6 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('song/delsong', Array)
+#7 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\phpStudy\WWW\training\music\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2017-02-15 19:01:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/delsong'
+    'id' => '27'
+]
+
+$_COOKIE = [
+    'Hm_lvt_407473d433e871de861cf818aa1405a1' => '1487036484,1487072409,1487142501,1487156298'
+    'Hm_lpvt_407473d433e871de861cf818aa1405a1' => '1487156298'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;F:\\Program Files (x86)\\bin;E:\\phpStudy\\php55n\\;E:\\phpStudy\\MySQL\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zk\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2212'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=song/delsong&id=27'
+    'QUERY_STRING' => 'r=song/delsong&id=27'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57821'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/training/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.mymusic.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'Hm_lvt_407473d433e871de861cf818aa1405a1=1487036484,1487072409,1487142501,1487156298; Hm_lpvt_407473d433e871de861cf818aa1405a1=1487156298'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.mymusic.com/?r=song/show'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0.10586; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2950.5 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.mymusic.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487156494.8387
+    'REQUEST_TIME' => 1487156494
+]
+2017-02-15 19:02:13 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'unlink(.//): Permission denied' in E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php:195
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'unlink(.//): Pe...', 'E:\\phpStudy\\WWW...', 195, Array)
+#1 E:\phpStudy\WWW\training\music\frontend\controllers\SongController.php(195): unlink('.//')
+#2 [internal function]: frontend\controllers\SongController->actionDelsong()
+#3 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('delsong', Array)
+#6 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('song/delsong', Array)
+#7 E:\phpStudy\WWW\training\music\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\phpStudy\WWW\training\music\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2017-02-15 19:02:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'song/delsong'
+    'id' => '28'
+]
+
+$_COOKIE = [
+    'Hm_lvt_407473d433e871de861cf818aa1405a1' => '1487036484,1487072409,1487142501,1487156298'
+    'Hm_lpvt_407473d433e871de861cf818aa1405a1' => '1487156520'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;F:\\Program Files (x86)\\bin;E:\\phpStudy\\php55n\\;E:\\phpStudy\\MySQL\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\zk\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2212'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=song/delsong&id=28'
+    'QUERY_STRING' => 'r=song/delsong&id=28'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57878'
+    'SCRIPT_FILENAME' => 'E:/phpStudy/WWW/training/music/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/phpStudy/WWW/training/music/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.mymusic.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'Hm_lvt_407473d433e871de861cf818aa1405a1=1487036484,1487072409,1487142501,1487156298; Hm_lpvt_407473d433e871de861cf818aa1405a1=1487156520'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://www.mymusic.com/?r=song/show'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0.10586; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2950.5 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.mymusic.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1487156532.498
+    'REQUEST_TIME' => 1487156532
+]

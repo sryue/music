@@ -172,7 +172,7 @@ class SongController extends CommonController
         }
 		$count = $musicObj->count();
 		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
-		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();		
+		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,ais_music.spe_id,ais_special.spe_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->join('inner join','ais_special','(ais_special.spe_id = ais_music.spe_id)')->orderBy('lssue_time desc')->asArray()->all();		
 		foreach ($list as $k=>$v)		{
 			$arr = explode(',',$v['music_img']);
 			$list[$k]['music_img'] = $arr[0];
