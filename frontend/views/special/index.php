@@ -102,14 +102,14 @@
               type:"post",
               success:function(msg)
               {
-                  if(msg)
+                  if(msg == 0 )
                   {
-                      alert('该艺人名可用！');
-                      _this.next().val(msg);
+                    alert('该艺人不存在,重新添加！');
                   }
                   else
                   {
-                       alert('该艺人不存在,重新添加！');
+                      alert('该艺人名可用！');
+                      _this.next().val(msg);
                   }
               }
           })

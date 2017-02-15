@@ -51,7 +51,7 @@ class SpecialController extends Controller
             $img_info = $upload->get_data();
             $info = \Yii::$app->request->post();
             unset($info['actor_name']);
-            $info['spe_img'] = $img_info['file_path'].$img_info['file_name'];
+            $info['spe_img'] = $img_info['file_path'].'/'.$img_info['file_name'];
 //            print_r($info);die;
 
             $special = new Special();
