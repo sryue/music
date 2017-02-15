@@ -514,7 +514,7 @@
                     </a>
                   </li>
                   <li ui-sref-active="active">
-                    <a ui-sref="app.dashboard-v1">
+                    <a ui-sref="app.dashboard-v1" href="?r=special/spe_list">
                       <span>专辑列表</span>
                     </a>
                   </li>

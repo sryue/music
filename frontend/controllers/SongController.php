@@ -129,6 +129,7 @@ class SongController extends CommonController
 		$styleList = $styleObJ->find()->asArray()->all();
 		//接收搜索条件
 		$music_name = Yii::$app->request->get('music_name');
+		$spe_id = Yii::$app->request->get('spe_id');
 		$lang = Yii::$app->request->get('lang');
 		$style_id = Yii::$app->request->get('style_id');
 		$start = strtotime(Yii::$app->request->get('start'));
@@ -159,9 +160,14 @@ class SongController extends CommonController
 			$formData['start'] = date('Y-m-d',$start);
 			$formData['end'] = date('Y-m-d',$end);
 		}
+		if(isset($spe_id) && !empty($spe_id))
+		{
+            $musicObj = $musicObj->andWhere("ais_music.special_id = $spe_id");
+            $formData['spe_id'] = $spe_id;
+        }
 		$count = $musicObj->count();
 		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
-		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();
+		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->join('inner join','ais_special','(ais_music.special_id = ais_special.spe_id)')->orderBy('lssue_time desc')->asArray()->all();
 		foreach ($list as $k=>$v)
 		{
 			$arr = explode(',',$v['music_img']);
