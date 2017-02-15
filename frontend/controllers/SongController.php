@@ -11,6 +11,7 @@ use app\models\AisComment;
 use app\models\UploadForm;
 use frontend\controllers\UploadController;
 use yii\data\Pagination;
+use app\models\Special;
 /**
  * 歌曲模块
  */
@@ -51,6 +52,7 @@ class SongController extends CommonController
 		$musicObj->tall_music_path = $data['tall_music_path'];
 		$musicObj->lyric_path = $data['lyric_path'];
 		$musicObj->lssue_time = $data['lssue_time'];
+		$musicObj->spe_id        = $data['spe_id'];
 		$res = $musicObj->save();
 		if($res)
 		{
@@ -66,10 +68,13 @@ class SongController extends CommonController
 		//查询所有语种
 		$languagesObj = new languages();
 		$langList  = $languagesObj->find()->asArray()->all();
+		//查询所有专辑
+		$speciaObj = new Special();
+		$speciList = $speciaObj->find()->asArray()->all();
 
 		$model = new UploadForm();
 
-		$data = ['styleList'=>$styleList,'langList'=>$langList,'model'=>$model];
+		$data = ['styleList'=>$styleList,'langList'=>$langList,'speciList'=>$speciList];
 		return $this->render('index',$data);
 	}
 	//添加表单 歌手的尾词搜索
@@ -161,7 +166,7 @@ class SongController extends CommonController
 		}
 		$count = $musicObj->count();
 		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
-		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();
+		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,ais_music.spe_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path,ais_special.spe_name')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->join('inner join','ais_special','(ais_music.spe_id = ais_special.spe_id)')->orderBy('lssue_time desc')->asArray()->all();
 		foreach ($list as $k=>$v)
 		{
 			$arr = explode(',',$v['music_img']);
@@ -260,6 +265,7 @@ class SongController extends CommonController
 		} else {
 		    $fileName = uniqid("file_");
 		}
+		$fileName = time().substr($fileName,strrpos($fileName,'.'));
 		$md5File = @file('md5list.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 		$md5File = $md5File ? $md5File : array();
 

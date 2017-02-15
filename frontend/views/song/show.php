@@ -41,6 +41,9 @@ use yii\widgets\LinkPager;
               <th>
                   所属歌手
               </th>
+              <th>
+                  所属专辑
+              </th>
               <th data-hide="phone,tablet">
                   语种
               </th>
@@ -70,6 +73,7 @@ use yii\widgets\LinkPager;
           <tr>
               <td><?php echo $v['music_name']?></td>
               <td><?php echo $v['actor_name']?></td>
+              <td><a href="#"><?php echo $v['spe_name']?></a></td>
               <td><?php echo $v['name']?></td>
               <td><?php echo $v['style_name']?></td>
               <td><img src="<?php echo $v['music_img']?>" alt="" width="150px" height="100px;"></td>

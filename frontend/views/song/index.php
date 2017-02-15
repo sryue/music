@@ -54,6 +54,17 @@ p{ margin-top: 5px;margin-bottom: 5px;}
               </div>
            </div> 
         </div>
+          <div class="line line-dashed b-b line-lg pull-in"></div>
+          <div class="form-group">
+              <label class="col-sm-2 control-label" for="input-id-1">所属专辑</label>
+              <div class="col-sm-10">
+                  <select name="spe_id" class="form-control m-b">
+                  <?php foreach($speciList as $k=>$v){?>
+                      <option value="<?php echo $v['spe_id']?>"><?php echo $v['spe_name']?></option>
+                  <?php }?>
+                  </select>
+              </div>
+          </div>
         <div class="line line-dashed b-b line-lg pull-in"></div>
         <div class="form-group">
           <label class="col-sm-2 control-label">语种</label>
@@ -88,11 +99,9 @@ p{ margin-top: 5px;margin-bottom: 5px;}
         <div class="line line-dashed b-b line-lg pull-in"></div>
         <div class="form-group">
           <label class="col-lg-2 control-label">歌曲图片</label>
-
             <div id="box" style="margin-left: 230px;">
             <div id="test" ></div>
             </div>
-
         </div>                    
         <input type='hidden' name='music_img' >
         <div class="line line-dashed b-b line-lg pull-in"></div>
