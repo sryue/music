@@ -6,7 +6,7 @@ class UploadController extends Controller
 {
 	private $error_msg  = null;  //错误信息
 	private $file_data  = null;	//文件信息
-	private $file_type =  array('mp3','lrc');	//文件格式
+	private $file_type =  array('mp3','lrc','jpg','jpeg','png');	//文件格式
 	private $max_size   =  20971520;	//文件大小
 	public function __construct()
 	{

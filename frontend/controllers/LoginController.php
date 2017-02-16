@@ -23,6 +23,7 @@ class LoginController extends Controller
 		$name=$request->post("name");
 		$pwd=$request->post("pwd");
 		$yan=$request->post("code");
+//        echo $name;die;
 		session_start();
 		$authcode=$_SESSION['authcode'];
 		if($yan==$authcode){

@@ -115,7 +115,7 @@ $(function(){
 		var pwd=$("#pwd").val();
 		$.ajax({
 			type: "POST",
-			url: "http://127.0.0.1/admin/frontend/web/?r=login/yan",
+			url: "?r=login/yan",
 			data: {
 				code:code,
 				name:name,

@@ -7,9 +7,11 @@ use app\models\Style;
 use app\models\Languages;
 use app\models\Actor;
 use app\models\Music;
+use app\models\AisComment;
 use app\models\UploadForm;
 use frontend\controllers\UploadController;
 use yii\data\Pagination;
+use app\models\Special;
 /**
  * 歌曲模块
  */
@@ -50,10 +52,11 @@ class SongController extends CommonController
 		$musicObj->tall_music_path = $data['tall_music_path'];
 		$musicObj->lyric_path = $data['lyric_path'];
 		$musicObj->lssue_time = $data['lssue_time'];
+		$musicObj->spe_id        = $data['spe_id'];
 		$res = $musicObj->save();
 		if($res)
 		{
-			$this->message('添加歌曲成功','?r=song/show',1,3);
+			$this->message('添加歌曲成功','?r=song/show',1,1);
 		}
 	}
 	//添加歌曲页面
@@ -65,10 +68,13 @@ class SongController extends CommonController
 		//查询所有语种
 		$languagesObj = new languages();
 		$langList  = $languagesObj->find()->asArray()->all();
+		//查询所有专辑
+		$speciaObj = new Special();
+		$speciList = $speciaObj->find()->asArray()->all();
 
 		$model = new UploadForm();
 
-		$data = ['styleList'=>$styleList,'langList'=>$langList,'model'=>$model];
+		$data = ['styleList'=>$styleList,'langList'=>$langList,'speciList'=>$speciList];
 		return $this->render('index',$data);
 	}
 	//添加表单 歌手的尾词搜索
@@ -86,7 +92,6 @@ class SongController extends CommonController
         {
 	        $actorObj = new Actor();
 			$data = $actorObj->find()->where(['like','actor_name',$songer])->asArray()->all();
-
         }
 		die(json_encode($data));
 	}
@@ -121,17 +126,58 @@ class SongController extends CommonController
 	}
 	//歌曲列表
 	public function actionShow(){
-		//查询歌曲
+		//所有语种
+		$langObj = new Languages();
+		$langList = $langObj->find()->asArray()->all();
+		//所有风格
+		$styleObJ = new Style();
+		$styleList = $styleObJ->find()->asArray()->all();
+		//接收搜索条件
+		$music_name = Yii::$app->request->get('music_name');
+		$spe_id = Yii::$app->request->get('spe_id');
+		$lang = Yii::$app->request->get('lang');
+		$style_id = Yii::$app->request->get('style_id');
+		$start = strtotime(Yii::$app->request->get('start'));
+		$end = strtotime(Yii::$app->request->get('end'));
 		$musicObj = new Music();
-		$count = $musicObj->find()->count();
-		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
-		$list = $musicObj->find()->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->orderBy('lssue_time desc')->asArray()->all();
-		foreach ($list as $k=>$v)
+		$musicObj = $musicObj->find();
+		//搜索条件拼接  默认值
+		$formData = ['music_name'=>'','lang'=>0,'style_id'=>0,'start'=>'','end'=>''];
+		if($music_name)
 		{
+			$musicObj = $musicObj->where(["like","music_name",$music_name]);
+			$formData['music_name'] = $music_name;
+		}
+		if($lang!=0)
+		{
+			$musicObj = $musicObj->andWhere("language = $lang");
+			$formData['lang'] = $lang;
+		}
+		if($style_id!=0)
+		{
+			$musicObj = $musicObj->andWhere("ais_music.style_id = $style_id");
+			$formData['style_id'] = $style_id;
+		}
+		if(!empty($start) && !empty($end))
+		{
+			$musicObj = $musicObj->andWhere(['>','lssue_time',$start]);
+			$musicObj = $musicObj->andWhere(['<','lssue_time',$end]);
+			$formData['start'] = date('Y-m-d',$start);
+			$formData['end'] = date('Y-m-d',$end);
+		}
+		if(isset($spe_id) && !empty($spe_id))
+		{
+            $musicObj = $musicObj->andWhere("ais_music.special_id = $spe_id");
+            $formData['spe_id'] = $spe_id;
+        }
+		$count = $musicObj->count();
+		$pagination = new Pagination(['totalCount' => $count,'pageSize'=>10]);
+		$list = $musicObj->offset($pagination->offset)->limit($pagination->limit)->select('music_id,music_name,ais_music.spe_id,ais_special.spe_name,lssue_time,ais_actor.actor_id,actor_name,language,ais_languages.name,music_img,music_path,download,play,ais_style.style_id,ais_style.style_name,lyric_path')->join('inner join','ais_actor','(ais_music.actor_id = ais_actor.actor_id)')->join('inner join','ais_languages','(ais_music.language = ais_languages.id)')->join('inner join','ais_style','(ais_music.style_id = ais_style.style_id)')->join('inner join','ais_special','(ais_special.spe_id = ais_music.spe_id)')->orderBy('lssue_time desc')->asArray()->all();		
+		foreach ($list as $k=>$v)		{
 			$arr = explode(',',$v['music_img']);
 			$list[$k]['music_img'] = './'.$arr[0];
 		}
-		return $this->render('show',['list'=>$list,'pagination'=>$pagination]);
+		return $this->render('show',['list'=>$list,'pagination'=>$pagination,'langList'=>$langList,'styleList'=>$styleList,'formData'=>$formData]);
 	}
 	//删除数据库记录和音乐文件 图片文件
 	public function actionDelsong()
@@ -154,10 +200,10 @@ class SongController extends CommonController
 		$res = $info->delete();
 		if($res)
 		{
-			$this->message('删除成功','?r=song/show',1,3);
+			$this->message('删除成功','?r=song/show',1,1);
 		}else
 		{
-			$this->message('删除失败','?r=song/show',0,3);
+			$this->message('删除失败','?r=song/show',0,1);
 		}
 	}
 	//试听
@@ -189,10 +235,6 @@ class SongController extends CommonController
 			}
 		    die( $this->renderpartial('message',$data)  );
 	 }
-	//歌曲评论列表
-	public function actionDiscuss(){
-		return $this->render('discuss');
-	}
 	//多个图片上传插件
 	public function actionUploadimg()
 	{
@@ -228,6 +270,7 @@ class SongController extends CommonController
 		} else {
 		    $fileName = uniqid("file_");
 		}
+		$fileName = time().substr($fileName,strrpos($fileName,'.'));
 		$md5File = @file('md5list.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 		$md5File = $md5File ? $md5File : array();
 
@@ -333,5 +376,50 @@ class SongController extends CommonController
 		// Return Success JSON-RPC response
 		// die('{"jsonrpc" : "2.0", "result" : null, "id" : "id","imgPath":"'.$uploadPath.'"}');
 	}
+	//歌曲评论列表
+	public function actionDiscuss(){
+		$request = \Yii::$app->request;
+		$search1 = $request->post("search");
+		$search2 = $request->get("search");
+		$search  = empty($search1) ? $search2 : $search1;
+		if(!empty($search)){
+			$data = AisComment::find()->select('*')
+			->innerJoin('ais_music','ais_comment.music_id=ais_music.music_id')
+			->innerJoin('ais_user','ais_comment.user_id=ais_user.user_id')
+			->where(['like','music_name',$search]); //联查  
+			// var_dump($data);die;
+		}else{
+			$data = AisComment::find()->select('*')
+			->innerJoin('ais_music','ais_comment.music_id=ais_music.music_id')
+			->innerJoin('ais_user','ais_comment.user_id=ais_user.user_id');; //联查  
+			// var_dump($data);die;
+       }  
+        $pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '15']);  
+	        $model = $data->offset($pages->offset)->limit($pages->limit)->asArray()->all(); //分页 
+	        return $this->render('discuss',[  
+	             'model' => $model,  
+	             'pages' => $pages,  
+	             'search' =>$search,
+	       ]); 
+	}
+	//评论删除
+	public function actionDis_del(){
+		$request = \Yii::$app->request;
+		$id = $request->get("id");
+		$search = $request->get("search");
+		$customer = AisComment::findOne($id);
+		$data = $customer->delete();
+		if($data){
+			echo "<script>alert('删除成功');location.href='?r=song/discuss&search=$search'</script>";
+		}else{
+			//失败
+			echo "<script>alert('删除失败');history.go(-1);</script>";
+		}
+	}
+
+
+
+
+
 }
 ?>
