@@ -91,9 +91,7 @@
             swfPath: "Jplayer.swf",
             supplied: "ogv, m4v, oga, mp3"
         };
-
         var myPlaylist = new jPlayerPlaylist(cssSelector, playlist, options);
-
     });
 </script>
 

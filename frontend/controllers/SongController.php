@@ -1,4 +1,4 @@
-d<?php
+<?php
 namespace frontend\controllers;
 
 use Yii;
