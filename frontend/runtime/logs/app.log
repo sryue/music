@@ -32376,3 +32376,550 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1487157982.5762
     'REQUEST_TIME' => 1487157982
 ]
+2017-02-16 19:06:13 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 45624 bytes' 
+
+in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\phpStudy\\WWW...', 86, Array)
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-16 19:06:12 [::1][-][-][info][application] $_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59582'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_REFERER' => 'http://localhost/admin/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243172.9564
+    'REQUEST_TIME' => 1487243172
+]
+2017-02-16 19:06:28 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 45624 bytes' 
+
+in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\\phpStudy\\WWW...', 86, Array)
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD\r\na...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export()
+#4 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2017-02-16 19:06:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/index'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/?r=song/index'
+    'QUERY_STRING' => 'r=song/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59593'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_REFERER' => 'http://localhost/admin/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243187.1593
+    'REQUEST_TIME' => 1487243187
+]
+2017-02-16 19:06:33 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_music.spe_id' in 'field list'' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SongController.php(175): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionShow()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_music.spe_id' in 'field list'
+The SQL being executed was: SELECT `music_id`, `music_name`, `ais_music`.`spe_id`, `ais_special`.`spe_name`, `lssue_time`, `ais_actor`.`actor_id`, `actor_name`, `language`, `ais_languages`.`name`, `music_img`, `music_path`, `download`, `play`, `ais_style`.`style_id`, `ais_style`.`style_name`, `lyric_path` FROM `ais_music` inner join `ais_actor` ON (ais_music.actor_id = ais_actor.actor_id) inner join `ais_languages` ON (ais_music.language = ais_languages.id) inner join `ais_style` ON (ais_music.style_id = ais_style.style_id) inner join `ais_special` ON (ais_special.spe_id = ais_music.spe_id) ORDER BY `lssue_time` DESC LIMIT 10' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT `music_i...')
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SongController.php(175): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionShow()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'ais_music.spe_id' in 'field list'
+)
+
+2017-02-16 19:06:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/?r=song/show'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59593'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_REFERER' => 'http://localhost/admin/frontend/web/?r=song/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243191.5205
+    'REQUEST_TIME' => 1487243191
+]
+2017-02-16 19:06:58 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_music.spe_id' in 'field list'' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SongController.php(175): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionShow()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_music.spe_id' in 'field list'
+The SQL being executed was: SELECT `music_id`, `music_name`, `ais_music`.`spe_id`, `ais_special`.`spe_name`, `lssue_time`, `ais_actor`.`actor_id`, `actor_name`, `language`, `ais_languages`.`name`, `music_img`, `music_path`, `download`, `play`, `ais_style`.`style_id`, `ais_style`.`style_name`, `lyric_path` FROM `ais_music` inner join `ais_actor` ON (ais_music.actor_id = ais_actor.actor_id) inner join `ais_languages` ON (ais_music.language = ais_languages.id) inner join `ais_style` ON (ais_music.style_id = ais_style.style_id) inner join `ais_special` ON (ais_special.spe_id = ais_music.spe_id) ORDER BY `lssue_time` DESC LIMIT 10' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT `music_i...')
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SongController.php(175): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SongController->actionShow()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'ais_music.spe_id' in 'field list'
+)
+
+2017-02-16 19:06:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'song/show'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/?r=song/show'
+    'QUERY_STRING' => 'r=song/show'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59605'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243217.732
+    'REQUEST_TIME' => 1487243217
+]
+2017-02-16 19:07:48 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_special.actor_id' in 'on clause'' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SpecialController.php(95): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SpecialController->actionSpe_list()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_special.actor_id' in 'on clause'
+The SQL being executed was: SELECT * FROM `ais_special` inner join `ais_languages` ON (ais_special.spe_language=ais_languages.id) inner join `ais_style` ON (ais_special.spe_style=ais_style.style_id) inner join `ais_actor` ON (ais_special.actor_id=ais_actor.actor_id) LIMIT 5' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SpecialController.php(95): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SpecialController->actionSpe_list()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'ais_special.actor_id' in 'on clause'
+)
+
+2017-02-16 19:07:47 [::1][-][-][info][application] $_GET = [
+    'r' => 'special/spe_list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/?r=special/spe_list'
+    'QUERY_STRING' => 'r=special/spe_list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59627'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_REFERER' => 'http://localhost/admin/frontend/web/?r=mstyle/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243267.0678
+    'REQUEST_TIME' => 1487243267
+]
+2017-02-16 19:08:52 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_special.actor_id' in 'on clause'' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SpecialController.php(95): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SpecialController->actionSpe_list()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ais_special.actor_id' in 'on clause'
+The SQL being executed was: SELECT * FROM `ais_special` inner join `ais_languages` ON (ais_special.spe_language=ais_languages.id) inner join `ais_style` ON (ais_special.spe_style=ais_style.style_id) inner join `ais_actor` ON (ais_special.actor_id=ais_actor.actor_id) LIMIT 5' in D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 D:\phpStudy\WWW\admin\frontend\controllers\SpecialController.php(95): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\SpecialController->actionSpe_list()
+#6 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\admin\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\admin\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'ais_special.actor_id' in 'on clause'
+)
+
+2017-02-16 19:08:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'special/spe_list'
+]
+
+$_COOKIE = [
+    '_trs_uv' => '8fwn_6_ixymkgbd'
+    '_trs_ua_s_1' => 'a1k8_6_ixymkgbd'
+    'bdshare_firstime' => '1486189861030'
+    'CNZZDATA921634' => 'cnzz_eid=133499854-1486637129-http%3A%2F%2Flocalhost%2F&ntime=1486685730'
+    'CNZZDATA2629111' => 'cnzz_eid=165491858-1486639394-http%3A%2F%2Flocalhost%2F&ntime=1486682596'
+    'l' => 'ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ'
+    'isg' => 'Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2'
+    'cna' => 'amACEeFVfDkCAd6ArTWz0WjR'
+    'advanced-frontend' => 'euk2q7283n7vr9q0ercr0cut41'
+    '_csrf-frontend' => '85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo\";}'
+    'PHPSESSID' => 'hetvvtqmk2l3ig7qi2ms4lv8c5'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\TortoiseSVN\\bin;D:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;D:\\phpStudy\\php55;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'SCRIPT_NAME' => '/admin/frontend/web/index.php'
+    'REQUEST_URI' => '/admin/frontend/web/?r=special/spe_list'
+    'QUERY_STRING' => 'r=special/spe_list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '59664'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/admin/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => '_trs_uv=8fwn_6_ixymkgbd; _trs_ua_s_1=a1k8_6_ixymkgbd; bdshare_firstime=1486189861030; CNZZDATA921634=cnzz_eid%3D133499854-1486637129-http%253A%252F%252Flocalhost%252F%26ntime%3D1486685730; CNZZDATA2629111=cnzz_eid%3D165491858-1486639394-http%253A%252F%252Flocalhost%252F%26ntime%3D1486682596; l=ArGxbd6ed48-/igSBxPFNFJnwTdLniUQ; isg=Avv7juH7J56smRsqji9iGMTKi9-XOg9SmCLXY-241_oRTBsudSCfohmOEFf2; cna=amACEeFVfDkCAd6ArTWz0WjR; advanced-frontend=euk2q7283n7vr9q0ercr0cut41; _csrf-frontend=85b62cb95eb365ab6c7adb463fdab0aef469c53471f5a3ecf4b2cf5e3d1151dca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Tyc9gidt0Uyr5_-z_AAYFByjFi6MzuDo%22%3B%7D; PHPSESSID=hetvvtqmk2l3ig7qi2ms4lv8c5'
+    'HTTP_REFERER' => 'http://localhost/admin/frontend/web/?r=special/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1487243331.8425
+    'REQUEST_TIME' => 1487243331
+]

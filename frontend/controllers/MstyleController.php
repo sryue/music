@@ -105,4 +105,5 @@ class MstyleController extends CommonController
 		}
 	}
 }
+../../../ais_image/1487241792.jpg
 ?>
